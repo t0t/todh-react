@@ -8,11 +8,17 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>TODH</h2>
+          <h2>TODH - React</h2>
         </div>
-        <p className="App-intro">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <h1 className="App-intro">
+          Hola mundo.
+        </h1>
+        <p>
+          He usado <a href="https://github.com/facebookincubator/create-react-app" target="_blank">Create React App</a> para crear un entorno de desarrollo en 1 minuto con la librería frontend React. Simplemente Brutal.
         </p>
+        <footer>
+          <a href="http://t-o-d-h.com">Sergio Forés</a> Diseño y desarrollo prototipos de todo tipo para equipos multidisciplinares y emprendedores. Freelance. Un tanto Freaky. Peligroso en la cocina.
+        </footer>
       </div>
     );
   }
