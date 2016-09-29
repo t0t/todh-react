@@ -1,0 +1,20 @@
+.Works {
+  display: flex;
+  flex-wrap: wrap;
+  &__header {}
+  &__item {
+    margin-bottom: $base_spacing;
+    &__title {
+      margin: 0;
+    }
+  }
+  &__figure {
+    margin-bottom: 0;
+    img {
+      // padding: $base_spacing / 2;
+      // border-radius: 3px;
+      // background-color: $color-white-alpha;
+    }
+    &__caption {}
+  }
+}

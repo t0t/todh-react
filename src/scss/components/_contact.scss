@@ -1,0 +1,33 @@
+.Contact-form {
+  // background-color: darken($color-black-suave,3);
+  textarea {
+    width: 100%;
+    // margin-top: 1px;
+    line-height: 20px;
+  }
+
+  form {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  input,
+  textarea {
+    letter-spacing: 1px;
+    font-size: 14px;
+    border: none;
+    padding: 10px;
+    margin-right: 1px;
+  }
+
+  input[type="submit"] {
+    // padding: 20px;
+    margin-left: $base_spacing;
+    background-color: transparent;
+    border: 1px solid $color-black;
+  }
+
+  input:last-child {
+    display: none;
+  }
+}

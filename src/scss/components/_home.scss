@@ -1,0 +1,18 @@
+.Home {}
+
+.home-title {
+  font-weight: bolder;
+  font-size: $font-size * 2.5;
+  letter-spacing: -1px;
+  flex: 1 100%;
+}
+
+.home-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home-img {
+  flex: 1 100%;
+}

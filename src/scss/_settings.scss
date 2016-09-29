@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+// Breakpoints
+$bp1: 1480px;
+$bp2: 900px;
+$bp2_3: 756px;
+$bp3: 450px;
+
+// Portait iphone6
+$bp3_4: 320px;
+$bp4: 250px;
+
+// Base
+$padding_base: 40px;
+$line-height-base: 1.5;
+$base_spacing: 25px;
+$font_size: 18px;
+
+// Colors
+$color-black: rgb(0, 0, 0);
+$color-base: rgb(129, 232, 179);
+$color-base-alpha: rgba(0, 0, 255, .5);
+$color-black-suave: rgba(0, 0, 0, 0.3);
+$color-white: rgb(255, 255, 255);
+$color-white-alpha: rgba(255, 255, 255, .8);
+$color-resaltado: rgb(51, 255, 226);
+$color_gray: lighten($color_black, 72);
+$color_alt: rgb(251,210,189);
+
+$colors: (
+red: red,
+white: $color_black,
+blue: blue,
+yellow: yellow,
+green: green,
+violet: rgb(150,50,175)
+);
+@each $name, $color in $colors {
+  .#{$name} {
+    fill: $color;
+  }
+}
+
+// Images
+$path: "/assets/img/";
