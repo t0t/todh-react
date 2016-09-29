@@ -20,30 +20,32 @@ export default class Blog extends Component {
       context: this,
       asArray: true,
       then(data) {
-        console.log(data)
         this.setState({
           loading: false,
           blogPosts: data
         })
       }
     });
-    this.tpl = base.fetch('site/header', {
-      context: this,
-      asArray: false,
-      then(data) {
-        this.setState({
-          template: data
-        })
-      }
-    });
+    // this.tpl = base.fetch('site/header', {
+    //   context: this,
+    //   asArray: false,
+    //   then(data) {
+    //     this.setState({
+    //       template: data
+    //     })
+    //   }
+    // });
   }
 
   render() {
     let header = this.state.template.blog;
     if (this.state.loading === true) { return  <IconLoader/> } else {
       let blogPosts = this.state.blogPosts.map(function(data){
+        // console.log(data);
+          console.log(data);
           return <BlogEntry {...data} />
       })
+
       return (
         <section className="Site__section--blog">
           <h1 className="Site__section__title">{header}</h1>
