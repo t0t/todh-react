@@ -132,7 +132,7 @@ export class IconArrowLeft extends Component {
   return (
     <svg className="icon-arrow-left" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 42 42" aria-labelledby="title">
       <title>Twitter icon</title>
-      <path d="M24.2 46.5L1.5 23.9 24.2 1.3" fill="none" fill-rule="evenodd"/>
+      <path d="M24.2 46.5L1.5 23.9 24.2 1.3" fill="none" fillRule="evenodd"/>
     </svg>
   )
  }

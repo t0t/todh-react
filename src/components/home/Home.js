@@ -28,16 +28,18 @@ export default class Home extends Component {
   }
 
   render() {
-    console.log(this.state.home);
+
+    let path = process.env.PUBLIC_URL;
     let home = this.state.home;
-    var bgHagoUrl = "./assets/icons/bg-hago.svg";
-    var bgMountainUrl = "./assets/icons/bg-mountain.svg";
+    var bgHagoUrl = path + "/assets/icons/bg-hago.svg";
+    var bgMountainUrl = "assets/icons/bg-mountain.svg";
     var bgHago = {
       backgroundImage: 'url(' + bgHagoUrl + ')'
     };
     var bgMountain = {
       backgroundImage: 'url(' + bgMountainUrl + ')'
     };
+
     return (
       <article className="Home">
 
