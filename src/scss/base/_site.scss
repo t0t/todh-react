@@ -6,7 +6,7 @@
   max-width: $bp1;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 100px;
+  padding-top: 75px;
 
   &__section {
     display: flex;
@@ -18,7 +18,7 @@
     margin-right: $base_spacing;
 
     &__header {
-      min-height: 500px;
+      height: 86vh;
       flex: 1 100%;
       margin-bottom: $base_spacing * 2;
       padding-left: $base_spacing;
@@ -39,6 +39,7 @@
       font-size: $font-size * 2.5;
       letter-spacing: -1px;
       text-align: center;
+      // padding-bottom: 0;
     }
 
     &__wrap {
@@ -106,7 +107,7 @@
 
     h1 {
       text-align: center;
-      padding: $base_spacing;
+      padding: 0 $base_spacing;
       // color: $color-white;
       margin-bottom: 0;
     }
@@ -136,13 +137,16 @@
   }
 
   &__header {
+    height: 75px;
     position: fixed;
     display: flex;
+    max-width: 100%;
+    align-items: center;
+    // background-color: red;
     // justify-content: space-around;
     top: 0;
     left: 0;
     right: 0;
-    max-width: 100%;
 
     @media screen and (min-width: 1528px) {
     }
@@ -180,8 +184,9 @@
       align-items: center;
       text-align: center;
       font-size: 14px;
-      margin-bottom: 0;
-      // display: block;
+      color: $color-black-suave;
+      // margin-bottom: 0;
+      line-height: 1.5;
       flex: 1 100%;
     }
   }

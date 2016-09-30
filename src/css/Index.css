@@ -407,7 +407,7 @@ button {
   height: 49px; }
 
 .icon-logo-sf {
-  max-width: 50px; }
+  width: 65px; }
   .icon-logo-sf circle {
     fill: white;
     stroke-width: 0px; }
@@ -460,7 +460,7 @@ button {
   max-width: 1480px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 100px; }
+  padding-top: 75px; }
   .Site__section {
     display: flex;
     flex-wrap: wrap;
@@ -470,7 +470,7 @@ button {
     margin-left: 25px;
     margin-right: 25px; }
     .Site__section__header {
-      min-height: 500px;
+      height: 86vh;
       flex: 1 100%;
       margin-bottom: 50px;
       padding-left: 25px;
@@ -528,7 +528,7 @@ button {
     padding-top: 25px; }
     .Site__section__header h1 {
       text-align: center;
-      padding: 25px;
+      padding: 0 25px;
       margin-bottom: 0; }
   .Site__section__header--home {
     background-color: #81e8b3;
@@ -545,12 +545,14 @@ button {
     font-weight: normal;
     letter-spacing: 1px; }
   .Site__header {
+    height: 75px;
     position: fixed;
     display: flex;
+    max-width: 100%;
+    align-items: center;
     top: 0;
     left: 0;
-    right: 0;
-    max-width: 100%; }
+    right: 0; }
   .Site__footer {
     display: flex;
     flex-wrap: wrap;
@@ -572,7 +574,8 @@ button {
       align-items: center;
       text-align: center;
       font-size: 14px;
-      margin-bottom: 0;
+      color: rgba(0, 0, 0, 0.3);
+      line-height: 1.5;
       flex: 1 100%; }
 
 @keyframes loader {
@@ -733,6 +736,8 @@ button {
   .Social__links {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
     margin: 0;
     list-style: none;
     padding: 25px; }
@@ -743,25 +748,39 @@ button {
     .Social__item a {
       color: black; }
 
-.Contact-form textarea {
-  width: 100%;
-  line-height: 20px; }
-.Contact-form form {
-  display: flex;
-  align-items: flex-start; }
-.Contact-form input,
-.Contact-form textarea {
-  letter-spacing: 1px;
-  font-size: 14px;
-  border: none;
-  padding: 10px;
-  margin-right: 1px; }
-.Contact-form input[type="submit"] {
-  margin-left: 25px;
-  background-color: transparent;
-  border: 1px solid black; }
-.Contact-form input:last-child {
-  display: none; }
+.Contact-form {
+  width: 100%; }
+  .Contact-form textarea {
+    line-height: 20px;
+    flex: 1 300px; }
+    @media screen and (max-width: 500px) {
+      .Contact-form textarea {
+        margin-bottom: 12.5px; } }
+  .Contact-form form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center; }
+  .Contact-form input,
+  .Contact-form textarea {
+    letter-spacing: 1px;
+    font-size: 14px;
+    border: none;
+    padding: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
+    width: 100%; }
+    @media screen and (min-width: 500px) {
+      .Contact-form input,
+      .Contact-form textarea {
+        width: inherit; } }
+  .Contact-form input[type="submit"] {
+    margin-left: 25px;
+    background-color: transparent;
+    border: 1px solid black;
+    width: inherit; }
+  .Contact-form input:last-child {
+    display: none; }
 
 .home-title {
   font-weight: bolder;

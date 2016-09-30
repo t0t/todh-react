@@ -1,14 +1,22 @@
 .Contact-form {
   // background-color: darken($color-black-suave,3);
+  width: 100%;
+
   textarea {
-    width: 100%;
     // margin-top: 1px;
     line-height: 20px;
+    flex: 1 300px;
+
+    @media screen and (max-width: 500px ) {
+      margin-bottom: $base_spacing / 2;
+    }
   }
 
   form {
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
+    justify-content: center;
   }
 
   input,
@@ -17,7 +25,14 @@
     font-size: 14px;
     border: none;
     padding: 10px;
-    margin-right: 1px;
+    margin-right: $base_spacing;
+    margin-left: $base_spacing;
+    width: 100%;
+
+    @media screen and (min-width: 500px ) {
+      width: inherit;
+    }
+
   }
 
   input[type="submit"] {
@@ -25,6 +40,11 @@
     margin-left: $base_spacing;
     background-color: transparent;
     border: 1px solid $color-black;
+    width: inherit;
+  }
+  input[name="name"] {
+  }
+  input[name="_replyto"] {
   }
 
   input:last-child {

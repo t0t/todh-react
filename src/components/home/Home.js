@@ -43,9 +43,9 @@ export default class Home extends Component {
     return (
       <article className="Home">
 
-        <div className="Site__section Site__section--home">
+        <div className="Site__section Site__section__header Site__section--home">
 
-          <div className="home-img"><img src={logo} className="App-logo" alt="logo" /></div>
+          <div className="home-img"><img src={logo} className="App-logo" alt="logo" />v0.1</div>
           <h1 className="home-title">{home.title}</h1>
           <div className="home-wrap">
             {(home.p1) ? <p>{home.p1}</p> : null}

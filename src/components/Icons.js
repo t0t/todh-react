@@ -77,7 +77,6 @@ export class IconLogoSF extends Component {
  render() {
   return (
     <svg className="icon-logo-sf" width="58" height="58" viewBox="0 0 58 58" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="28" cy="28" r="28"/>
     <path d="M23.127 18.932c3.648-1.167 2.66-4.932 0-4.932-2.61 0-3.063 3.986.025 4.942 0 3.03-.025 14.08-.025 14.08h7.79-7.79V45H38"/>
     </svg>
   )

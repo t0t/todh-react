@@ -26,8 +26,14 @@ export default class Historia extends Component {
   render() {
     return (
       <div>
-        <p>{this.state.data.biografia}</p>
-        <p>{this.state.data.formacion}</p>
+        <h3>{this.state.data.valores}</h3>
+        <p>{this.state.data.sinergias}</p>
+        <p>{this.state.data.proceso}</p>
+        <p>{this.state.data.innovacion}</p>
+        <p>{this.state.data.franqueza}</p>
+        <p>{this.state.data.foco}</p>
+        <p>{this.state.data.escucha}</p>
+        <p>{this.state.data.compartir}</p>
       </div>
     )
   }
