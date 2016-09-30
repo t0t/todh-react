@@ -18,9 +18,16 @@
     margin-right: $base_spacing;
 
     &__header {
+      min-height: 500px;
       flex: 1 100%;
-      background-color: $color-base;
       margin-bottom: $base_spacing * 2;
+      text-align: center;
+      background-color: $color-base;
+
+      h4 {
+        max-width: 700px;
+        margin-top: 0;
+      }
     }
 
     &__title {

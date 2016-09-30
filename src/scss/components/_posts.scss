@@ -9,15 +9,22 @@
     justify-content: space-around;
     list-style: none;
     padding: $base_spacing;
-    background-color: $color-base;
   }
 
   &__list__item {
+    flex: 0 375px;
+    order: 10;
+
     @media screen and (min-width: $bp3) {
       // width: 300px;
     }
-    flex: 0 375px;
-    // flex: 0 375px;
+
+    &--opened {
+      flex: 1 100%;
+      padding-top: 100px;
+      order: 1;
+      // background-color: $color-white;
+    }
   }
 
 

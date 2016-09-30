@@ -26,19 +26,21 @@ export default class Blog extends Component {
         })
       }
     });
-    // this.tpl = base.fetch('site/header', {
-    //   context: this,
-    //   asArray: false,
-    //   then(data) {
-    //     this.setState({
-    //       template: data
-    //     })
-    //   }
-    // });
+    this.tpl = base.fetch('site/header', {
+      context: this,
+      asArray: false,
+      then(data) {
+        this.setState({
+          template: data
+        })
+      }
+    });
   }
 
   render() {
-    let header = this.state.template.blog;
+    let titulo = this.state.template.blog_titulo;
+    let subtitulo = this.state.template.blog_subtitulo;
+
     if (this.state.loading === true) { return  <IconLoader/> } else {
       let blogPosts = this.state.blogPosts.map(function(data){
         // console.log(data);
@@ -47,9 +49,12 @@ export default class Blog extends Component {
       })
 
       return (
-        <section className="Site__section--blog">
-          <h1 className="Site__section__title">{header}</h1>
-          <ul className="Posts__list">{blogPosts}</ul>
+        <section className="Site__section  Site__section--blog">
+          <header className="Site__section__header">
+            <h1 className="Site__section__title">{titulo}</h1>
+            <h4>{subtitulo}</h4>
+          </header>
+          <div className="Posts__list">{blogPosts}</div>
         </section>
       )
     }

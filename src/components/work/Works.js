@@ -36,7 +36,8 @@ export default class Works extends React.Component {
   }
 
   render() {
-    let header = this.state.template.work;
+    let titulo = this.state.template.works_titulo;
+    let subtitulo = this.state.template.works_subtitulo;
 
     if (this.state.loading === true) {
       return  <IconLoader />
@@ -45,12 +46,16 @@ export default class Works extends React.Component {
       let worksList = this.state.works.map(function(datos){
       return <Work {...datos} />
     })
-      
+
       return (
         <section className="Site__section Site__section--works">
 
-          <h1>{header}</h1>
-          {worksList}
+          <header className="Site__section__header">
+            <h1 className="Site__section__title">{titulo}</h1>
+            <h4>{subtitulo}</h4>
+          </header>
+
+          <div className="Posts__list">{worksList}</div>
 
         </section>
       )
