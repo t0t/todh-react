@@ -1,0 +1,322 @@
+{
+  "blog" : [ null, {
+    "title" : "En qué te puedo ayudar exactamente",
+    "desc" : "Las tareas y servicios que desempeño",
+    "img1" : "assets/img/image2.jpg",
+    "blockquote" : "Esta es una cita, un texto destacado",
+    "name" : "",
+    "p01" : "Podemos tocar las cosas pero no podemos tocar ni ver las ideas mismas que dirigen el mundo",
+    "p02" : "Podemos ver el mundo físico pero no aquello que hace que sea como és; el amor, los pensamientos... Todo lo que nos rodea es la manifestación de toda una serie de \"cosas\" que nunca nadie ha visto. Mi trabajo consiste en facilitar una experiencia de usuario óptima en aplicaciones y sitios web. Hacer que las ideas y los conceptos importantes lleguen de una forma clara y con el menor ruido e interferencias posible.  Mis áreas de especialización son:  - Diseño de sitios web y UI - Front-end enfocado en las vistas y layout css",
+    "p03" : "Mi rol es algo así como una mezcla entre el de un diseñador de experiencias de usuario que piensa como un diseñador frontend y está enfocado en la fase de prototipado y mockups.",
+    "p04" : "Trabajando en equipo, sin embargo, desarrollo mi faceta especialista, puedo concentrar mis habilidades en un área concreta pudiendo profundizar mucho. Abarcas menos pero aprietas más.",
+    "url1" : "http://t0t.github.io/sffire/"
+  }, {
+    "title" : "Perpetuarse o transformarse",
+    "desc" : "TODH también es... un viaje de reorientación profesional",
+    "img1" : "assets/img/image1.jpg",
+    "name" : "Post 2",
+    "p01" : "En esta ocasión el proceso TODH me lleva a querer decir cosas sobre mi propio proceso de transformación profesional. Quizás te encuentres en un momento parecido y estas cuatro etapas te puedan aportar algo.",
+    "p02" : "Transmisión",
+    "p03" : "En todo viaje hay un detonante, una llamada a salir de tu zona de confort, el héroe de la película recibe una llamada externa (o interna) de auxilio quizás. Recibes una pregunta y te tienes que responder. Detectas un conflicto. La tribu en la que vives te transmite un reto. Tu puedes estar muy bien como estás pero recibes una información que te dice algo a tí en un momento concreto y queda a la escucha de una respuesta por tu parte. Algo queda pendiente de una acción…",
+    "p04" : "Puede ser cualquier cosa; un artículo en un blog, alguien que en el ascensor te pregunta a qué te dedicas, la crisis de los cuarenta, ver en youtube como un niño de 15 años explica cosas sobre un tema que tú creías que dominabas desde hacía años. El caso es que algo de fuera viene a tí y despierta una pregunta latente en tu interior. En mi caso fue una mezcla de los ejemplos que he citado pero sobretodo comprender mi Eneatipo (el 5) dentro de una herramienta de autoconocimiento llamada Eneagrama. Me di cuenta de que la mayor barrera para alcanzar el éxito era no ser completamente quien tú ya eres. Sólo tenía que darme cuenta de una serie de cosas y aprender a transmitirlas.",
+    "p05" : "Observación",
+    "p06" : "Te vas al espacio del sentir, la observación de lo que ocurre. Lo que “se te” ocurre. Te subes a tus ojos y te vas a ver, te abres a lo que te motiva, a las posibilidades a todo lo que es un poco tú. Hay muchas cosas que son un poco tú, porque todos nosotros somos un poco lo que es el mundo. Me interesaban varios oficios, varios roles, me gustaba tanto maquetar css como diseñar webs, usar herramientas frontend, interacción, interface, etc. No había límites. Me encantaba observar, aprender, aplicar y mezclar conocimientos diferentes. Sin embargo esto dejó de ser divertido cuando me di cuenta de que si seguía interesandome por tantos campos distintos en los que la tendencia general era la especialización y la ramificación jamás profundizaría lo suficiente. Quedandome anclado en el observar no podía más que ampliar mi campo de visión lo cual es bueno pero ¿cómo ver el árbol si sólo miro el bosque?.",
+    "p07" : "La vida física te impone limitaciones como el tiempo. Al final tu capital es la energía y yo ya estaba bajo mínimos. No hay nada malo en la observación, lo único que puedes hacer “mal” en el ciclo de TODH es quedarte anclado sólo en un aspecto demasiado tiempo.",
+    "p08" : "Decidir",
+    "p09" : "Así que salté a un estado en el que las cosas se pusieron tan interesantes y excitantes como inestables y peligrosas. Había llegado el momento de los noes y los síes. En la zona de la decisión, que es la del pensar, se trata de decir que no a casi todo, aunque duela. Te asaltan las dudas, tu cabeza es un campo de batallas en la que muere casi todo lo que vivía en tí. Lo único que queda en pie es aquello que realmente necesitas en este momento: una senda, una dirección, la claridad mental para traer algo intangible al mundo de lo tangible. Todos los caminos llevan a alguna parte pero sólo uno te lleva a donde tú vas.",
+    "p10" : "Y rodaron cabezas: Wordpress cayó después de 10 años ayudandome a publicar, diseñar y desarrollar sitios web. InDesign cayó despues de años ayudandome a maquetar catálogos y revistas. Mediatemple y después gigas cayeron despues de años ofreciendome hosting para mis clientes. Y así casi todo. Tambien dije que no a horas y horas invertidas en aprender lenguajes de programación como javascript o PHP y herramientas… Realmente desastroso y descorazonador, pero así es, la tecnología cambia, todo cambia a un ritmo vertiginoso y yo buscaba aquellas habilidades aquel potencial en mi que no cambia, mi talento.",
+    "p11" : "Encontré la esencia, aquellas herramientas que realmente me eran útiles en mi propósito, aquello que no me distraía sino que me traía a mi mismo al lugar a donde iba.",
+    "p12" : "Hacer",
+    "p13" : "El hacer es siempre imperfecto, feo o por lo menos mejorable, porque los hechos no tienen vuelta a atrás, solo pueden ir hacia delante. Cualquier acción ya está, ya es, te guste o no. Lo que haces está verdaderamente en el mundo físico y eso es maravilloso porque completa el ciclo natural de las cosas que van de lo mental a lo material. Como dijo el Quijote: “Más vale un toma que dos te daré”. Y es cierto. Es tiempo de hacer con acciones pequeñas, tímidas, tiempo de ir obteniendo resultados también pequeños quizás al principio pero así son las cosas primero son siempre pequeñas y con coherencia se actualizan en algo superior, el “esto correcto” que crece y evoluciona.",
+    "p14" : "Por eso he creado esta web. Está llena de errores, es pequeña (de momento) pero es mi prototipo, uso las tecnologías que ahora me representan mejor, con las que puedo dar más de mí, puedo aprender de los errores que voy cometiendo, rectificar rapidamente sin practicamente ningún coste. Voy liberando, fluyendo en TODH.",
+    "p15" : ""
+  }, {
+    "title" : "Mi post",
+    "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "img1" : "assets/img/image3.jpg",
+    "name" : "",
+    "p01" : "parrafo añadido...",
+    "p02" : "parrafo añadido...",
+    "p03" : "parrafo añadido...",
+    "p04" : "parrafo añadido...",
+    "p05" : "parrafo añadido...",
+    "p06" : "parrafo añadido...",
+    "p07" : "parrafo añadido...",
+    "p08" : "parrafo añadido...",
+    "p09" : "parrafo añadido...",
+    "p10" : "parrafo añadido..."
+  } ],
+  "brand" : {
+    "description" : "Diseño y desarrollo web basado en estándares",
+    "logo" : "assets/icons/icons.svg",
+    "name" : "Sergio Forés",
+    "title" : "art, design, code & advaita"
+  },
+  "contacto" : {
+    "email" : "sergiofores@gmail.com"
+  },
+  "historia" : {
+    "biografia" : "Un día decidí consolidar todas las experiencias que había recogido en distintos ámbitos de mi vida y reorientarme profesionalmente. No se si fué por la famosa crisis de los 40, pero en todo caso fue una bendición el darme cuenta de un montón de cosas que debía llevar a cabo; me centré en mi propósito vital. Y en eso andamos desde entonces. Dándonos cuenta y dando cuenta de ello. Construyendo miga a miga una marca personal, luchando con dragones, equivocandome mucho, aprendiendo y disfrutando de las experiencias.",
+    "formacion" : "He cursado estudios superiores en Artes Plásticas en EARTVIC y también Arte Electrónico y Diseño Digital en EsDi. Además he cursado multitud de cursos online sobre Sass, Firebase, CSS3, Experiencia de Usuario, Wordpress, etc."
+  },
+  "home" : {
+    "boton" : "Mi historia",
+    "boton_hago" : "Muestra de trabajos",
+    "boton_pienso" : "Blog",
+    "boton_siento" : "Sobre mí",
+    "descripcion_hago" : "Tras abrazar distintos territorios como el diseño web, gráfico, editorial, el frontend o el desarrollo de temas en Wordpress, encuentro en el mundo del prototipado digital el lugar donde confluyen todas mis pasiones.",
+    "descripcion_pienso" : "Me gusta usar el pensamiento para lo que sirve, es decir, para decidir con criterio y planificar. Las ideas por sí solas no te llevan a ninguna parte pero te ayudan a elegir el camino más corto.",
+    "descripcion_siento" : "Todos estamos en el mismo viaje sólo que lo apreciamos desde puntos de vista distintos. Quiero compartir no sólo mis conocimientos sino mi forma de ser porque al final ésto va de personas conviviendo con otras personas.",
+    "img" : "",
+    "p1" : "Diseño y desarrollo prototipos de todo tipo para equipos multidisciplinares y emprendedores.",
+    "p2" : "",
+    "title" : "Realizo la forma de las ideas",
+    "title_hago" : "Hay otros mundos pero están en éste...",
+    "title_pienso" : "El mapa no es la montaña",
+    "title_siento" : "Perfil, habilidades y conocimientos"
+  },
+  "photos" : {
+    "id1" : {
+      "title" : "primera foto",
+      "url" : "assets/img/image1.jpg"
+    },
+    "id10" : {
+      "title" : "Foto 2",
+      "url" : "assets/img/image2.jpg"
+    },
+    "id11" : {
+      "title" : "Foto 3",
+      "url" : "assets/img/image3.jpg"
+    },
+    "id12" : {
+      "title" : "Foto 4",
+      "url" : "assets/img/image1.jpg"
+    },
+    "id13" : {
+      "title" : "Foto 5",
+      "url" : "assets/img/image2.jpg"
+    },
+    "id14" : {
+      "title" : "Foto 6",
+      "url" : "assets/img/image1.jpg"
+    },
+    "id15" : {
+      "title" : "Foto 2",
+      "url" : "assets/img/image1.jpg"
+    },
+    "id16" : {
+      "title" : "Foto 4",
+      "url" : "assets/img/image3.jpg"
+    },
+    "id17" : {
+      "title" : "Foto 1",
+      "url" : "assets/img/image1.jpg"
+    },
+    "id18" : {
+      "title" : "Foto 2",
+      "url" : "assets/img/image1.jpg"
+    },
+    "id19" : {
+      "title" : "Foto 4",
+      "url" : "assets/img/image2.jpg"
+    },
+    "id2" : {
+      "title" : "Foto 2",
+      "url" : "assets/img/image1.jpg"
+    },
+    "id20" : {
+      "title" : "Foto 1",
+      "url" : "assets/img/image1.jpg"
+    },
+    "id21" : {
+      "title" : "Foto 2",
+      "url" : "assets/img/image3.jpg"
+    },
+    "id22" : {
+      "title" : "Foto 4",
+      "url" : "assets/img/image1.jpg"
+    },
+    "id23" : {
+      "title" : "Foto 1",
+      "url" : "assets/img/image2.jpg"
+    },
+    "id24" : {
+      "title" : "Foto 2",
+      "url" : "assets/img/image1.jpg"
+    },
+    "id25" : {
+      "title" : "Foto 4",
+      "url" : "assets/img/image1.jpg"
+    },
+    "id26" : {
+      "title" : "Foto 1",
+      "url" : "assets/img/image1.jpg"
+    },
+    "id27" : {
+      "title" : "Foto 2",
+      "url" : "assets/img/image1.jpg"
+    },
+    "id28" : {
+      "title" : "Foto 4",
+      "url" : "assets/img/image1.jpg"
+    },
+    "id29" : {
+      "title" : "Foto 1",
+      "url" : "assets/img/image3.jpg"
+    },
+    "id30" : {
+      "title" : "Foto ultima",
+      "url" : "assets/img/image2.jpg"
+    }
+  },
+  "servicios" : {
+    "id001" : {
+      "header" : "Wireframing y Prototipado",
+      "p1" : "Sketching y dibujo a mano",
+      "p2" : "",
+      "p3" : "Sketch / Principle / Craft",
+      "p4" : "Axure RP8",
+      "p5" : "Photoshop / Affinity Suit",
+      "p6" : "InDesign"
+    },
+    "id002" : {
+      "header" : "Front-end",
+      "p1" : "HTML + CSS (Sass)",
+      "p2" : "Javascript",
+      "p3" : "React",
+      "p4" : "Git / Github",
+      "p5" : "Gulp",
+      "p6" : ""
+    },
+    "id005" : {
+      "header" : "Otros",
+      "p1" : "Firebase",
+      "p2" : "Wordpress",
+      "p3" : "Jekyll",
+      "p4" : "Roots",
+      "p5" : "",
+      "p6" : ""
+    }
+  },
+  "site" : {
+    "config" : {
+      "description" : "SPA",
+      "language" : "es",
+      "metatags" : "ssp, react, firebase, app, t0t",
+      "title" : "SFFIRE"
+    },
+    "header" : {
+      "blog_subtitulo" : "Una colección de pensamientos ‘confesables’, inspiraciones, ideas, planes y procesos que me encuentro en mi dia a dia.",
+      "blog_titulo" : "Lo que pienso",
+      "home" : "",
+      "servicios" : "Habilidades",
+      "work" : "Observo"
+    }
+  },
+  "social" : {
+    "dribbble" : {
+      "title" : "Dribble",
+      "url" : "https://dribbble.com/t0t"
+    },
+    "facebook" : {
+      "title" : "Facebook",
+      "url" : "https://www.facebook.com/sergio.fores"
+    },
+    "github" : {
+      "title" : "Github",
+      "url" : "https://github.com/t0t"
+    },
+    "linkedin" : {
+      "title" : "Linkedin",
+      "url" : "https://es.linkedin.com/in/sergiofores"
+    },
+    "tumblr" : {
+      "title" : "Tumblr",
+      "url" : "https://www.tumblr.com/blog/t0tinspire"
+    },
+    "twitter" : {
+      "title" : "Twitter",
+      "url" : "https://twitter.com/t0tinspire"
+    },
+    "youtube" : {
+      "title" : "Youtube",
+      "url" : "https://www.youtube.com/user/sergeiforesraga"
+    }
+  },
+  "soy" : {
+    "descripcion" : "Encuentro tesoros en lo obvio y natural",
+    "p1" : "Hola, mi nombre es Sergio Forés, para mí la vida es una experiencia con sentido, por esta razón me interesa a aportar a los demás eso mismo; experiencias con sentido.",
+    "p2" : "Según el Eneagrama de la personalidad: me reconozco en un Eneatipo 5. También podría definirme en ciertos contextos como un Knowmad. Un T-shaped… hay etiquetas para aburrir.",
+    "p3" : "En la ideación gráfica y la diagramación de presentación es donde veo que saco el máximo partido de mis habilidades. Creo que todo trabajo es interior y exterior a la vez. Me apasiona la observación de la realidad, comprenderla creando espacios de reflexión, aprendizaje, ensayo y error, y sentido del humor.",
+    "title" : "Transmitir"
+  },
+  "todh" : {
+    "boton" : "",
+    "descripcion" : "Estas cuatro letras son las cuatro partes principales de que se compone todo proceso de creación, comprendiendo lo que esto significa podemos relacionarnos con cualquier cosa en resonancia con los principios de creación que rigen la vida...",
+    "p1" : "Un día me disponía a salir y no encontraba las llaves, las busqué por todas partes pero no las encontraba, al final resultó que me las había dejado colgadas en la puerta de mi casa...",
+    "p2" : "La resolución de cualquier drama no suele estar en lugares recónditos sino allí donde no se nos ocurrió mirar porque ya lo dábamos por supuesto. Así, lo extraordinario, aquello que da sentido a lo que somos, sentimos o hacemos no está lejos del aquí y del ahora, sólo necesitamos aprender a ver más de cerca lo que ya estábamos viendo.",
+    "p3" : "Tras un largo proceso de autoconocimiento y búsqueda de sentido en mi vida personal y profesional me di cuenta de esta gran obviedad, me dí cuenta de que sabía hablar pero aún no había aprendido a Decir. Tenía cosas importantes que contar a los demás y ni siquiera era capaz de explicarmelas a mí mismo.",
+    "p4" : "En una ocasión tuve un pequeño Satori cuando mi hijo me pidió que le contara un cuento y yo me quedé bloqueado, mi mente trabajaba pero no fui capaz de pronunciar una sola palabra. Mi hijo ese día se durmió sin cuento y yo me quede ahí junto a él mirando el techo un buen rato tratando de averiguar porqué no había sido capaz de pronunciar el mejor cuento del mundo.",
+    "p5" : "Definitivamente tenía que aprender a decir, aún no me importaba tanto el qué, sólo quería comprender y practicar lo que se me revelaba como una capacidad extraordinaria, un potencial por descubrir. Tomé un lápiz y un papel y abrí esa puerta…",
+    "p6" : "egergggg",
+    "p7" : "ssd",
+    "title" : "TODH, descubriendo lo que es"
+  },
+  "works" : {
+    "id001" : {
+      "category" : "web",
+      "date" : "45/34/2016",
+      "desc" : "Web Design, Front-end and Branding",
+      "image" : "assets/img/energyfruits.jpg",
+      "title" : "Energy Fruits",
+      "url" : "http://www.energyfruits.es"
+    },
+    "id002" : {
+      "category" : "web",
+      "date" : 2015,
+      "desc" : "Full stack Web Design on Wordpress",
+      "image" : "assets/img/nanosigegants.png",
+      "title" : "Web Design on Wordpress",
+      "url" : "http://nanosigegants.com"
+    },
+    "id003" : {
+      "category" : "design, editorial",
+      "date" : "35/34/16",
+      "desc" : "Maquetación del nuevo disco de 2 Princeses Barbudes. \"Sempre de Vacances\". Un verdadero placer haber trabajado para ellos",
+      "image" : "./assets/img/2princesesbarbudes.jpg",
+      "title" : "Maquetación SDV"
+    },
+    "id004" : {
+      "category" : "web",
+      "date" : 2014,
+      "desc" : "Rediseño completo de sitio web estático basado en ‪#‎jade‬ ‪#‎stylus‬ y ‪#‎gulp‬",
+      "image" : "./assets/img/maderlim.png",
+      "title" : "Maderlim Website",
+      "url" : "http://maderlim.com"
+    },
+    "id005" : {
+      "category" : "web",
+      "date" : 2016,
+      "desc" : "Frontend y diseño de un theme a medida en Wordpress para Maña Industries. Todo un placer.",
+      "image" : "./assets/img/mind.jpg",
+      "title" : "Custom Wordpress Theme",
+      "url" : "http://mind.ag"
+    },
+    "id006" : {
+      "category" : "design",
+      "date" : 2016,
+      "desc" : "Diseño web para el videoartista Jesús Olmo.",
+      "image" : "./assets/img/jesusolmo.jpg",
+      "title" : "Jesús Olmo",
+      "url" : "http://jesusolmo.com"
+    },
+    "id007" : {
+      "category" : "web design",
+      "date" : 2016,
+      "desc" : "Diseño de catálogo",
+      "image" : "./assets/img/habitdesign.jpg",
+      "title" : "Habit Design",
+      "url" : ""
+    }
+  }
+}
