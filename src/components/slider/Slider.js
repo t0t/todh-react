@@ -32,18 +32,26 @@ export default class Slider extends Component {
   handlePrevSlide() {
     const totalSlides = this.state.slides.length;
     if ( this.state.slide < 1 ) {
-      this.setState({ slide: totalSlides - 1 })
+      this.setState({
+        slide: totalSlides - 1
+      })
     } else {
-      this.setState({ slide: this.state.slide - 1 })
+      this.setState({
+        slide: this.state.slide - 1
+      })
     }
   }
 
   handleNextSlide() {
     const totalSlides = this.state.slides.length;
     if ( this.state.slide < totalSlides - 1) {
-      this.setState({ slide: this.state.slide + 1 })
+      this.setState({
+        slide: this.state.slide + 1
+      })
     } else {
-      this.setState({ slide: 0 })
+      this.setState({
+        slide: 0
+      })
     }
   }
 

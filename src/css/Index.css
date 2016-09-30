@@ -308,10 +308,15 @@ dl {
   text-align: center; }
 
 dt {
-  font-weight: bold; }
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 15px; }
 
 dd {
-  margin-left: 0; }
+  line-height: 1.4;
+  margin-left: 0;
+  margin-bottom: 10px;
+  padding-left: 25px; }
 
 img {
   max-width: 100%; }
@@ -468,6 +473,8 @@ button {
       min-height: 500px;
       flex: 1 100%;
       margin-bottom: 50px;
+      padding-left: 25px;
+      padding-right: 25px;
       text-align: center;
       background-color: #81e8b3; }
       .Site__section__header h4 {
@@ -476,6 +483,9 @@ button {
     .Site__section__title {
       flex: 1 100%;
       width: 100%;
+      font-weight: bolder;
+      font-size: 45px;
+      letter-spacing: -1px;
       text-align: center; }
     .Site__section__wrap {
       display: flex;
@@ -538,7 +548,9 @@ button {
     position: fixed;
     display: flex;
     top: 0;
-    width: 100%; }
+    left: 0;
+    right: 0;
+    max-width: 100%; }
   .Site__footer {
     display: flex;
     flex-wrap: wrap;
@@ -687,6 +699,23 @@ button {
   .Works__figure {
     margin-bottom: 0; }
 
+.Widget {
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .Widget__title {
+    flex: 1 100%;
+    text-align: center; }
+  .Widget__list {
+    text-align: left;
+    border: 1px solid #81e8b3;
+    border-radius: 5px;
+    padding: 25px; }
+  .Widget--list {
+    width: 100%;
+    margin: 25px 0; }
+
 .Social {
   display: flex;
   flex-wrap: wrap;
@@ -736,9 +765,18 @@ button {
 
 .home-title {
   font-weight: bolder;
-  font-size: 45px;
+  font-size: 36px;
   letter-spacing: -1px;
-  flex: 1 100%; }
+  flex: 1 100%;
+  margin-bottom: 0;
+  padding-left: 25px;
+  padding-right: 25px; }
+  @media screen and (min-width: 756px) {
+    .home-title {
+      font-size: 63px;
+      line-height: 1.1;
+      padding-left: 75px;
+      padding-right: 75px; } }
 
 .home-wrap {
   display: flex;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Rebase from 're-base'
-import { IconHeart } from '../Icons'
+// import { IconHeart } from '../Icons'
 
 var base = Rebase.createClass('https://sergiofores.firebaseio.com/');
 
@@ -26,15 +26,17 @@ export default class Todh extends Component {
   }
 
   render() {
-    console.log(this.state.todh)
+
     let todh = this.state.todh;
 
     return (
       <section className="Site__section">
 
-        <IconHeart />
-        <h1 className="home-title">{todh.title}</h1>
-        {(todh.descripcion) ? <p>{todh.descripcion}</p> : null}
+        <header className="Site__section__header">
+          <h1 className="Site__section__title">{todh.title}</h1>
+          {(todh.descripcion) ? <p>{todh.descripcion}</p> : null}
+        </header>
+
         {(todh.p1) ? <p>{todh.p1}</p> : null}
         {(todh.p2) ? <p>{todh.p2}</p> : null}
         {(todh.p3) ? <p>{todh.p3}</p> : null}

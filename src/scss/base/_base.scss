@@ -39,10 +39,15 @@ dl {
 
 dt {
   font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 15px;
 }
 
 dd {
+  line-height: 1.4;
   margin-left: 0;
+  margin-bottom: 10px;
+  padding-left: $base_spacing;
   // color: $color_gray;
 }
 

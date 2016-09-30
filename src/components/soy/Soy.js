@@ -26,13 +26,13 @@ export default class Soy extends Component {
   }
 
   render() {
-    console.log(this.state.soy)
+
     let soy = this.state.soy;
 
     return (
       <div className="Site__section__header">
 
-          <h1 className="home-title">{soy.title}</h1>
+          <h1 className="Site__section__title">{soy.title}</h1>
           {(soy.p1) ? <p>{soy.p1}</p> : null}
           {(soy.p2) ? <p>{soy.p2}</p> : null}
           {(soy.p3) ? <p>{soy.p3}</p> : null}

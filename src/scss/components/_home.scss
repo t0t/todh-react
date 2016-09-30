@@ -1,13 +1,28 @@
 .Home {}
 
+
+
+
 .home-title {
   font-weight: bolder;
-  font-size: $font-size * 2.5;
+  font-size: $font-size * 2;
   letter-spacing: -1px;
   flex: 1 100%;
+  margin-bottom: 0;
+  padding-left: $base_spacing;
+  padding-right: $base_spacing;
+
+  @media screen and (min-width: $bp2_3) {
+    font-size: $font-size * 3.5;
+    line-height: 1.1;
+    padding-left: $base_spacing * 3;
+    padding-right: $base_spacing * 3;
+  }
 }
 
+// bloque footer home header
 .home-wrap {
+  // max-width: 600px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

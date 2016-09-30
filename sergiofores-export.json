@@ -1,17 +1,16 @@
 {
   "blog" : [ null, {
-    "title" : "En qué te puedo ayudar exactamente",
+    "blockquote" : "Esta es una cita, un texto destacado",
     "desc" : "Las tareas y servicios que desempeño",
     "img1" : "assets/img/image2.jpg",
-    "blockquote" : "Esta es una cita, un texto destacado",
     "name" : "",
     "p01" : "Podemos tocar las cosas pero no podemos tocar ni ver las ideas mismas que dirigen el mundo",
     "p02" : "Podemos ver el mundo físico pero no aquello que hace que sea como és; el amor, los pensamientos... Todo lo que nos rodea es la manifestación de toda una serie de \"cosas\" que nunca nadie ha visto. Mi trabajo consiste en facilitar una experiencia de usuario óptima en aplicaciones y sitios web. Hacer que las ideas y los conceptos importantes lleguen de una forma clara y con el menor ruido e interferencias posible.  Mis áreas de especialización son:  - Diseño de sitios web y UI - Front-end enfocado en las vistas y layout css",
     "p03" : "Mi rol es algo así como una mezcla entre el de un diseñador de experiencias de usuario que piensa como un diseñador frontend y está enfocado en la fase de prototipado y mockups.",
     "p04" : "Trabajando en equipo, sin embargo, desarrollo mi faceta especialista, puedo concentrar mis habilidades en un área concreta pudiendo profundizar mucho. Abarcas menos pero aprietas más.",
+    "title" : "En qué te puedo ayudar exactamente",
     "url1" : "http://t0t.github.io/sffire/"
   }, {
-    "title" : "Perpetuarse o transformarse",
     "desc" : "TODH también es... un viaje de reorientación profesional",
     "img1" : "assets/img/image1.jpg",
     "name" : "Post 2",
@@ -29,22 +28,23 @@
     "p12" : "Hacer",
     "p13" : "El hacer es siempre imperfecto, feo o por lo menos mejorable, porque los hechos no tienen vuelta a atrás, solo pueden ir hacia delante. Cualquier acción ya está, ya es, te guste o no. Lo que haces está verdaderamente en el mundo físico y eso es maravilloso porque completa el ciclo natural de las cosas que van de lo mental a lo material. Como dijo el Quijote: “Más vale un toma que dos te daré”. Y es cierto. Es tiempo de hacer con acciones pequeñas, tímidas, tiempo de ir obteniendo resultados también pequeños quizás al principio pero así son las cosas primero son siempre pequeñas y con coherencia se actualizan en algo superior, el “esto correcto” que crece y evoluciona.",
     "p14" : "Por eso he creado esta web. Está llena de errores, es pequeña (de momento) pero es mi prototipo, uso las tecnologías que ahora me representan mejor, con las que puedo dar más de mí, puedo aprender de los errores que voy cometiendo, rectificar rapidamente sin practicamente ningún coste. Voy liberando, fluyendo en TODH.",
-    "p15" : ""
+    "p15" : "",
+    "title" : "Perpetuarse o transformarse"
   }, {
-    "title" : "Mi post",
-    "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "desc" : "El prototipado evolutivo como modelo creativo de la naturaleza",
     "img1" : "assets/img/image3.jpg",
     "name" : "",
-    "p01" : "parrafo añadido...",
-    "p02" : "parrafo añadido...",
-    "p03" : "parrafo añadido...",
-    "p04" : "parrafo añadido...",
-    "p05" : "parrafo añadido...",
-    "p06" : "parrafo añadido...",
-    "p07" : "parrafo añadido...",
-    "p08" : "parrafo añadido...",
-    "p09" : "parrafo añadido...",
-    "p10" : "parrafo añadido..."
+    "p01" : "La naturaleza evoluciona",
+    "p02" : "El prototipado evolutivo te permite plasmar y anticipar toda la complejidad y multiplicidad que interviene en un proyecto digital. Es un artefacto que en su inicio ya abarca la totalidad de algo que está “más allá” y que va llegando progresivamente. Me interesa remarcar esta idea de virtualidad operable que anticipa y desarrolla algo en el tiempo. Aún no está aquí, pero puedes experimentarlo “como si” en efecto lo estuviera, ahora mismo. Aprehendemos lo que hacemos mientras lo hacemos. Estamos hablando más de un diálogo abierto que de un discurso cerrado y todo ese desplegarse progresivo en el mundo no hace más que recordarme una y otra vez cómo opera la vida, eso que llamamos la naturaleza. Un prototipo es, en definitiva, una semilla.",
+    "p03" : "Observando las dinámicas y estrategias que aplica la naturaleza en sus creaciones veremos valiosos ejemplos de prototipos que pueden guiarnos e inspirarnos. ¿Porqué no seguir su ejemplo? Al fin y al cabo somos parte de ella y en muchos aspectos funcionamos igual. La naturaleza está integrando literalmente dentro de la semilla la esencia de un “producto terminado” con todo lo necesario para que el árbol pueda desarrollarse en el futuro.",
+    "p04" : "La dificultad del asunto es saber discernir qué es lo importante, qué elementos de cualquier fase merecen tener cabida en el prototipo para que sea precisamente evolutivo. Me viene a la cabeza el mito del arca de Noé. Necesitamos tener una visión holística y transversal que nos permita captar el big picture y, al mismo tiempo, una mínima base técnica y concreta de los requisitos más específicos.",
+    "p05" : "La clave en todo proceso es la actitud, la manera en que lo llevamos a cabo es la forma en que va a crecer nuestra semilla. La actitud nos da el tono concreto, nos lleva a gestionar el error, la incertidumbre y las prioridades de una manera más o menos efectiva. Hay innumerables metodologías que podemos emplear para seguir un proceso más o menos bien orquestado, como son el Design Thinking, Lean Startup, etc. Existe mucha información al respecto y es útil conocerla. Sin embargo resulta también muy interesante observar directamente cómo la naturaleza resuelve sus propios procesos de forma natural, sencilla y efectiva. Prueba de ello es que tú y yo estamos aquí…",
+    "p06" : "Podemos obtener mucha información útil sobre estrategia y marketing simplemente comprendiendo porqué las aves de entornos selváticos buscan llamar la atención y destacar con colores tan vistosos mientras que en entornos áridos parecen más interesadas en pasar desapercibidas. Podríamos encontrar muchas analogías con el proceso de prototipar simplemente observando el patrón de crecimiento de los caracoles. Pero antes de perderme en ese bosque conceptual quisiera volver a nuestra semilla-prototipo.",
+    "p07" : "Si tomamos la naturaleza como modelo a la hora de crear un prototipo debemos considerar la energía como el principal recurso de que disponemos porque la energía es sinergia. Un pequeño uso de energía conducido y sostenido adecuadamente produce un crecimiento exponencial. Los que nos hemos dedicado a la creación de sitios web completos sabemos el tiempo y sufrimiento que cuesta realizar modificaciones estructurales de diseño en proyectos que ya están en desarrollo o en producción. Sería realmente problemático tener que mover nuestro árbol ya adulto de su sitio porque el lugar donde está no le da suficiente sol. Arrancar todas esas fuertes raíces, remover toda esa tierra… Es más fácil si puedes acceder a la semilla que aún guarda a su interior y adaptarla desde el núcleo a cualquier tipo de cambio.",
+    "p08" : "En los últimos años está habiendo un auge exponencial de empresas que adoptan modelos incrementales, lean, ágiles, etc. Es un indicativo de la naturaleza cambiante de esta era tecnológica en la que las startups y los emprendedores buscan adaptarse a la continua incertidumbre reduciendo costes. Son proyectos que buscan innovación, disponen de poco presupuesto y tienen una gran necesidad de puesta en marcha rápida. Cada vez más gente está comprendiendo que el producto es el proceso y que todo proceso está embebido en un proceso mayor que es la propia naturaleza de nuestra existencia.",
+    "p09" : "",
+    "p10" : "",
+    "title" : "Todo es un prototipo..."
   } ],
   "brand" : {
     "description" : "Diseño y desarrollo web basado en estándares",
@@ -169,33 +169,62 @@
       "url" : "assets/img/image2.jpg"
     }
   },
-  "servicios" : {
-    "id001" : {
-      "header" : "Wireframing y Prototipado",
-      "p1" : "Sketching y dibujo a mano",
-      "p2" : "",
-      "p3" : "Sketch / Principle / Craft",
-      "p4" : "Axure RP8",
-      "p5" : "Photoshop / Affinity Suit",
-      "p6" : "InDesign"
+  "habilidades" : {
+    "dl01" : {
+      "dt01" : "Wireframing y Prototipado",
+      "dd01" : "Sketching y dibujo a mano",
+      "dd02" : "",
+      "dd03" : "Sketch / Principle / Craft",
+      "dd04" : "Axure RP8",
+      "dd05" : "Photoshop / Affinity Suit",
+      "dd06" : "InDesign"
     },
-    "id002" : {
-      "header" : "Front-end",
-      "p1" : "HTML + CSS (Sass)",
-      "p2" : "Javascript",
-      "p3" : "React",
-      "p4" : "Git / Github",
-      "p5" : "Gulp",
-      "p6" : ""
+    "dl02" : {
+      "dt01" : "Front-end",
+      "dd01" : "HTML + CSS (Sass)",
+      "dd02" : "Javascript",
+      "dd03" : "React",
+      "dd04" : "Git / Github",
+      "dd05" : "Gulp",
+      "dd06" : ""
     },
-    "id005" : {
-      "header" : "Otros",
-      "p1" : "Firebase",
-      "p2" : "Wordpress",
-      "p3" : "Jekyll",
-      "p4" : "Roots",
-      "p5" : "",
-      "p6" : ""
+    "dl03" : {
+      "dt01" : "Otros",
+      "dd01" : "Firebase",
+      "dd02" : "Wordpress",
+      "dd03" : "Jekyll",
+      "dd04" : "Roots",
+      "dd05" : "",
+      "dd06" : ""
+    }
+  },
+  "conocimientos" : {
+    "dl01" : {
+      "dt01" : "Wireframing y Prototipado",
+      "dd01" : "Sketching y dibujo a mano",
+      "dd02" : "",
+      "dd03" : "Sketch / Principle / Craft",
+      "dd04" : "Axure RP8",
+      "dd05" : "Photoshop / Affinity Suit",
+      "dd06" : "InDesign"
+    },
+    "dl02" : {
+      "dt01" : "Front-end",
+      "dd01" : "HTML + CSS (Sass)",
+      "dd02" : "Javascript",
+      "dd03" : "React",
+      "dd04" : "Git / Github",
+      "dd05" : "Gulp",
+      "dd06" : ""
+    },
+    "dl03" : {
+      "dt01" : "Otros",
+      "dd01" : "Firebase",
+      "dd02" : "Wordpress",
+      "dd03" : "Jekyll",
+      "dd04" : "Roots",
+      "dd05" : "",
+      "dd06" : ""
     }
   },
   "site" : {
@@ -210,7 +239,8 @@
       "blog_titulo" : "Lo que pienso",
       "home" : "",
       "servicios" : "Habilidades",
-      "work" : "Observo"
+      "works_subtitulo" : "Servicios de prototipado web high-res para agencias digitales y emprendedores bajo un enfoque holístico y ágil.",
+      "works_titulo" : "Hago que ello ocurra"
     }
   },
   "social" : {
@@ -245,9 +275,9 @@
   },
   "soy" : {
     "descripcion" : "Encuentro tesoros en lo obvio y natural",
-    "p1" : "Hola, mi nombre es Sergio Forés, para mí la vida es una experiencia con sentido, por esta razón me interesa a aportar a los demás eso mismo; experiencias con sentido.",
-    "p2" : "Según el Eneagrama de la personalidad: me reconozco en un Eneatipo 5. También podría definirme en ciertos contextos como un Knowmad. Un T-shaped… hay etiquetas para aburrir.",
-    "p3" : "En la ideación gráfica y la diagramación de presentación es donde veo que saco el máximo partido de mis habilidades. Creo que todo trabajo es interior y exterior a la vez. Me apasiona la observación de la realidad, comprenderla creando espacios de reflexión, aprendizaje, ensayo y error, y sentido del humor.",
+    "p1" : "Diseñador/Frontend enfocado en una visión propia del prototipado evolutivo. Freelance. Un tanto Freaky. Peligroso en la cocina.",
+    "p2" : "En la ideación gráfica y la diagramación de presentación es donde veo que saco el máximo partido de mis habilidades. Creo que todo trabajo es interior y exterior a la vez. Me apasiona la observación de la realidad, comprenderla creando espacios de reflexión, aprendizaje, ensayo y error, y sentido del humor.",
+    "p3" : "",
     "title" : "Transmitir"
   },
   "todh" : {

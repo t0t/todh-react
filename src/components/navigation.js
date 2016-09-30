@@ -22,16 +22,16 @@ export default class MainNav extends Component {
         <ul className="Nav-main">
 
           <li className="Nav-main__item">
-            <Link to="/services" activeClassName="active"> Transmitir </Link>
+            <Link to="/services" activeClassName="active"> Soy </Link>
           </li>
           <li className="Nav-main__item">
-            <Link to="/works" activeClassName="active"> Observar </Link>
+            <Link to="/works" activeClassName="active"> Observación </Link>
           </li>
           <li className="Nav-main__item">
-            <Link to="/blog" activeClassName="active"> Definir </Link>
+            <Link to="/blog" activeClassName="active"> Pienso </Link>
           </li>
           <li className="Nav-main__item">
-            <Link to="/todh" activeClassName="active"> Hacer </Link>
+            <Link to="/todh" activeClassName="active"> Actúo </Link>
           </li>
 
         </ul>

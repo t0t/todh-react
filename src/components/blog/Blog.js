@@ -52,7 +52,7 @@ export default class Blog extends Component {
         <section className="Site__section  Site__section--blog">
           <header className="Site__section__header">
             <h1 className="Site__section__title">{titulo}</h1>
-            <h4>{subtitulo}</h4>
+            <p>{subtitulo}</p>
           </header>
           <div className="Posts__list">{blogPosts}</div>
         </section>
