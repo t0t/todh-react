@@ -65,7 +65,9 @@ export default class Services extends Component {
         <Soy />
 
         <Slider />
-        <Historia />
+        <div className="Site__section__content">
+          <Historia />
+        </div>
 
         <div className="Widget Widget--list">
         <h3 className="Widget__title">{headerConocimientos}</h3>

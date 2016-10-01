@@ -37,11 +37,13 @@ export default class Todh extends Component {
           {(todh.descripcion) ? <p>{todh.descripcion}</p> : null}
         </header>
 
-        {(todh.p1) ? <p>{todh.p1}</p> : null}
-        {(todh.p2) ? <p>{todh.p2}</p> : null}
-        {(todh.p3) ? <p>{todh.p3}</p> : null}
-        {(todh.p4) ? <p>{todh.p4}</p> : null}
-        {(todh.p5) ? <p>{todh.p5}</p> : null}
+        <div className="Site__section__content">
+          {(todh.p1) ? <p>{todh.p1}</p> : null}
+          {(todh.p2) ? <p>{todh.p2}</p> : null}
+          {(todh.p3) ? <p>{todh.p3}</p> : null}
+          {(todh.p4) ? <p>{todh.p4}</p> : null}
+          {(todh.p5) ? <p>{todh.p5}</p> : null}
+        </div>
 
       </section>
     )

@@ -41,9 +41,9 @@ export default class Home extends Component {
     };
 
     return (
-      <article className="Home">
+      <section className="Home">
 
-        <div className="Site__section Site__section__header Site__section--home">
+        <div className="Site__section  Site__section__header Site__section--home">
 
           <div className="home-img"><img src={logo} className="App-logo" alt="logo" />v0.1</div>
           <h1 className="home-title">{home.title}</h1>
@@ -93,7 +93,7 @@ export default class Home extends Component {
           {(home.boton_siento) ? <button className="btn"><Link to="/services" activeClassName="active"> {home.boton_siento} </Link></button> : null}
         </div>
 
-      </article>
+      </section>
     )
   }
 }

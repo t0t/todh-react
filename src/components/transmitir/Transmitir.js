@@ -30,7 +30,7 @@ export default class Transmitir extends Component {
     let transmitir = this.state.transmitir;
 
     return (
-      <section className="Home">
+      <section>
 
         <div className="Site__section__header Site__section__header--home">
           <Link to="/" className=""><IconHeart /></Link>

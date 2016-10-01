@@ -6,7 +6,10 @@
   max-width: $bp1;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 75px;
+
+  @media screen and ( min-width: 450px ) {
+    // padding-top: 75px;
+  }
 
   &__section {
     display: flex;
@@ -14,13 +17,20 @@
     justify-content: center;
     align-content: center;
     min-height: 550px;
-    margin-left: $base_spacing;
-    margin-right: $base_spacing;
+    // margin-left: $base_spacing;
+    // margin-right: $base_spacing;
+
+    &__content {
+      padding-left: $base_spacing;
+      padding-right: $base_spacing;
+    }
 
     &__header {
-      height: 86vh;
+      height: 100vh;
       flex: 1 100%;
       margin-bottom: $base_spacing * 2;
+      margin-left: 0;
+      margin-right: 0;
       padding-left: $base_spacing;
       padding-right: $base_spacing;
       text-align: center;
@@ -37,7 +47,7 @@
       width: 100%;
       font-weight: bolder;
       font-size: $font-size * 2.5;
-      letter-spacing: -1px;
+      letter-spacing: 1px;
       text-align: center;
       // padding-bottom: 0;
     }
@@ -70,27 +80,33 @@
     }
 
     &--home {
-      // padding-top: 10%;
+      background-image: url('/assets/img/bg.jpg');
       background-color: $color-base;
       text-align: center;
       background-repeat: no-repeat;
-      background-size: 10%;
-      background-position: center top;
+      background-size: cover;
+      background-position: center;
       h1 {
         flex: 1 100%;
       }
     }
 
     &--hago {
+      padding-left: $base_spacing;
+      padding-right: $base_spacing;
       background-repeat: no-repeat;
       background-size: contain;
       background-position: right;
     }
     &--pienso {
+      padding-left: $base_spacing;
+      padding-right: $base_spacing;
       background-repeat: no-repeat;
       background-size: contain;
     }
     &--siento {
+      padding-left: $base_spacing;
+      padding-right: $base_spacing;
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
@@ -106,7 +122,7 @@
     padding-top: $base_spacing;
 
     h1 {
-      text-align: center;
+      // text-align: center;
       padding: 0 $base_spacing;
       // color: $color-white;
       margin-bottom: 0;
@@ -159,9 +175,10 @@
     justify-content: center;
     width: 100%;
     min-height: 400px;
-    // background-color: $color_gray;
-    padding-left: $base_spacing;
-    padding-right: $base_spacing;
+    // margin-left: 0;
+    // margin-right: 0;
+    // padding-left: $base_spacing;
+    // padding-right: $base_spacing;
     // padding-bottom: 0;
     // font-size: 80%;
     line-height: 1;

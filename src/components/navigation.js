@@ -3,35 +3,51 @@ import { Link } from 'react-router'
 import {IconToggle} from './Icons'
 
 export default class MainNav extends Component {
+
   constructor() {
     super()
-    this.state = { isActive: false }
+    this.state = {
+      isActive: false
+    }
   }
-  handleClick() {
-    let active = !this.state.isActive
-    this.setState({ isActive: active })
+
+  toggleOnOff() {
+    let active = !this.state.isActive;
+    this.setState({
+      isActive: active
+    })
   }
+
+  closeOverlay() {
+    this.setState({
+      isActive: false
+    })
+    console.log('hola');
+  }
+
   render () {
-    let addClass = this.state.isActive && 'active'
+    let addClass = this.state.isActive && 'active';
+
     return (
       <nav className="Nav-main-wrap">
-        <button className={ addClass + ' toggle-btn' } onClick={this.handleClick.bind(this)}>
+
+        <button className={ addClass + ' toggle-btn' } onClick={this.toggleOnOff.bind(this)}>
           <IconToggle/>
         </button>
 
         <ul className="Nav-main">
 
           <li className="Nav-main__item">
-            <Link to="/services" activeClassName="active"> Soy </Link>
+            <Link to="/services" activeClassName="active" onClick={this.closeOverlay.bind(this)}> Soy </Link>
           </li>
           <li className="Nav-main__item">
-            <Link to="/works" activeClassName="active"> Observación </Link>
+            <Link to="/works" activeClassName="active" onClick={this.closeOverlay.bind(this)}> Observación </Link>
           </li>
           <li className="Nav-main__item">
-            <Link to="/blog" activeClassName="active"> Pienso </Link>
+            <Link to="/blog" activeClassName="active" onClick={this.closeOverlay.bind(this)}> Pienso </Link>
           </li>
           <li className="Nav-main__item">
-            <Link to="/todh" activeClassName="active"> Actúo </Link>
+            <Link to="/todh" activeClassName="active" onClick={this.closeOverlay.bind(this)}> Actúo </Link>
           </li>
 
         </ul>
