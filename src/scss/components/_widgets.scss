@@ -1,0 +1,25 @@
+.Widget {
+  padding: $base_spacing;
+  // width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  &__title {
+    flex: 1 100%;
+    text-align: center;
+  }
+
+  &__list {
+    text-align: left;
+    border: 1px solid $color-base;
+    border-radius: 5px;
+    padding: $base_spacing;
+  }
+
+  &--list {
+    // background-color: red;
+    width: 100%;
+    margin: $base_spacing 0;
+  }
+}
