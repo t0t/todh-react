@@ -5,6 +5,9 @@
 .App {
   // background-image: url('/assets/img/image1.jpg');
 }
+.Site__section--home {
+    background-image: url('/assets/img/bg.jpg');
+  }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }

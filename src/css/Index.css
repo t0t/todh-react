@@ -510,7 +510,6 @@ button {
     .Site__section__article small {
       display: block; }
     .Site__section--home {
-      background-image: url("/assets/img/bg.jpg");
       background-color: #81e8b3;
       text-align: center;
       background-repeat: no-repeat;
