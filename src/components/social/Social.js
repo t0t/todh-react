@@ -31,7 +31,7 @@ export default class Social extends Component {
     });
     return (
       <div className="Social">
-        <h3 className="Social__title">¿Hablamos?</h3>
+        <h3 className="Social__title">Formemos el equipo, transformemos el mundo</h3>
         <Contacto/>
         <ul className="Social__links">
           {socialLinks}

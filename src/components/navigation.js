@@ -22,7 +22,6 @@ export default class MainNav extends Component {
     this.setState({
       isActive: false
     })
-    console.log('hola');
   }
 
   render () {
