@@ -6,8 +6,8 @@ import { Link } from 'react-router'
 var base = Rebase.createClass('https://sergiofores.firebaseio.com/');
 
 export default class Transmitir extends Component {
-  constructor(props) {
-    super(props);
+  constructor(...args) {
+    super(...args);
     this.state = {
       transmitir: []
     };

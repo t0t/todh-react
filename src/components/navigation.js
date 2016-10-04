@@ -4,8 +4,8 @@ import {IconToggle} from './Icons'
 
 export default class MainNav extends Component {
 
-  constructor() {
-    super()
+  constructor(...args) {
+    super(...args)
     this.state = {
       isActive: false
     }

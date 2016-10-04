@@ -6,9 +6,11 @@ import { IconLogoSF } from './Icons'
 import { Link } from 'react-router'
 import MainNav from './navigation'
 
+
+
 export default class Header extends Component {
-  constructor(props) {
-    super(props);
+  constructor(...args) {
+    super(...args);
     this.state = {
       brand: {}
     };

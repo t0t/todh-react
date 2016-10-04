@@ -283,6 +283,9 @@ input {
 .violet {
   fill: #9632af; }
 
+#root {
+  width: 100%; }
+
 .overflow-hidden {
   background-color: red; }
 
@@ -395,16 +398,10 @@ button {
 .icon-loader {
   stroke: #81e8b3;
   fill: none;
-  width: 100%;
-  height: 100px;
+  width: 50%;
   animation-name: loader;
   animation-duration: .2s;
-  animation-iteration-count: infinite;
-  position: absolute;
-  top: 100px;
-  left: 100px;
-  display: block;
-  z-index: 10; }
+  animation-iteration-count: infinite; }
 
 .icon-toggle {
   stroke: black;
@@ -595,6 +592,17 @@ button {
 @keyframes active {
   50% {
     opacity: .3; } }
+.Loading {
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+
 .Nav-main {
   display: none;
   flex-wrap: wrap;

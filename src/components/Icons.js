@@ -4,10 +4,17 @@ import React, { Component } from 'react';
 export class IconLoader extends Component {
  render() {
   return (
-    <svg className="icon-loader Loading" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" aria-labelledby="title">
-      <title id="title">Umbrella Icon</title>
-      <path d="M27 14h5c0-1.105-1.119-2-2.5-2s-2.5 0.895-2.5 2v0zM27 14c0-1.105-1.119-2-2.5-2s-2.5 0.895-2.5 2c0-1.105-1.119-2-2.5-2s-2.5 0.895-2.5 2v0 14c0 1.112-0.895 2-2 2-1.112 0-2-0.896-2-2.001v-1.494c0-0.291 0.224-0.505 0.5-0.505 0.268 0 0.5 0.226 0.5 0.505v1.505c0 0.547 0.444 0.991 1 0.991 0.552 0 1-0.451 1-0.991v-14.009c0-1.105-1.119-2-2.5-2s-2.5 0.895-2.5 2c0-1.105-1.119-2-2.5-2s-2.5 0.895-2.5 2c0-1.105-1.119-2-2.5-2s-2.5 0.895-2.5 2c0-5.415 6.671-9.825 15-9.995v-1.506c0-0.283 0.224-0.499 0.5-0.499 0.268 0 0.5 0.224 0.5 0.499v1.506c8.329 0.17 15 4.58 15 9.995h-5z"/>
-    </svg>
+    <div className="Loading">
+      <svg className="icon-loader" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 180 180" aria-labelledby="title" vector-effect="non-scaling-stroke">
+      <title id="title">Heart Icon</title>
+        <path d="M141.254935,98.2011723 C93.1946772,100.166706 125.368781,165.735509 142.288103,157.327677" id="Shape"></path>
+        <path d="M141.133267,98.1528732 C141.133267,118.121474 136.313256,137.695035 142.658002,157.663636 C90.8425774,184.98909 45.3718989,125.083287 9.4183392,94.6048969" id="Shape"></path>
+        <path d="M10.2807747,95.1705731 C-7.6960052,78.3549093 -0.987377861,34.8206957 22.2766902,22.2089479 C33.9087242,19.056011 41.0855254,24.1291986 52.7175595,24.1291986 C52.7175595,24.1291986 56.8526503,59.7697648 66.1533319,64.6473296" id="Shape"></path>
+        <path d="M141.600544,97.4144446 C153.232578,48.0184323 96.1298656,-43.4167393 51.7166448,23.8459157" id="Shape"></path>
+        <path d="M141.318661,98.0107927 C112.767305,90.6539398 93.5428811,76.1237642 66.0489825,64.5629954" id="Shape"></path>
+        <path d="M65.4508761,64.3195502 C53.8188421,87.4410878 27.3951191,79.8911912 9.4183392,95.6558759" id="Shape"></path>
+      </svg>
+    </div>
   )
  }
 }
@@ -16,7 +23,7 @@ export class IconLoader extends Component {
 export class IconHeart extends Component {
  render() {
   return (
-    <svg className="icon-heart" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 180 180" aria-labelledby="title">
+    <svg className="icon-heart" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 180 180" aria-labelledby="title" vector-effect="non-scaling-stroke">
       <title id="title">Heart Icon</title>
         <path d="M141.254935,98.2011723 C93.1946772,100.166706 125.368781,165.735509 142.288103,157.327677" id="Shape"></path>
         <path d="M141.133267,98.1528732 C141.133267,118.121474 136.313256,137.695035 142.658002,157.663636 C90.8425774,184.98909 45.3718989,125.083287 9.4183392,94.6048969" id="Shape"></path>
