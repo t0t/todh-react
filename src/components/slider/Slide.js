@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
 
 export default class Slide extends Component {
-  constructor(props) {
-    super(props)
+  constructor(...args) {
+    super(...args)
     this.state = {
       isActive: false
     }
   }
-  handleClick (e) {
-    e.preventDefault
-    let active = !this.state.isActive
-    this.setState({ isActive: active })
+  handleClick() {
+    let active = !this.state.isActive;
+    this.setState({ isActive: active });
   }
   render() {
     let addClass = this.state.isActive && 'active'

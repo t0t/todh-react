@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
 import Rebase from 're-base'
-var base = Rebase.createClass('https://sergiofores.firebaseio.com/');
-
-import { IconLogoSF } from './Icons'
+const base = Rebase.createClass('https://sergiofores.firebaseio.com/');
 import { Link } from 'react-router'
 import MainNav from './navigation'
-
+import { IconLogoSF } from './Icons'
 
 
 export default class Header extends Component {
@@ -20,7 +18,7 @@ export default class Header extends Component {
     base.fetch('brand', {
       context: this,
       asArray: false,
-      then(data) { this.state.brand = data; }
+      then(data) { this.state.brand = data }
     });
   }
 

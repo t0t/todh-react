@@ -468,13 +468,14 @@ button {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    min-height: 550px; }
+    width: 100%;
+    min-height: 450px; }
     .Site__section__content {
       padding-left: 25px;
       padding-right: 25px; }
     .Site__section__header {
+      width: 100%;
       height: 100vh;
-      flex: 1 100%;
       margin-bottom: 50px;
       margin-left: 0;
       margin-right: 0;

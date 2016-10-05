@@ -16,9 +16,11 @@
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    min-height: 550px;
+    // min-height: 550px;
     // margin-left: $base_spacing;
     // margin-right: $base_spacing;
+    width: 100%;
+    min-height: 450px;
 
     &__content {
       padding-left: $base_spacing;
@@ -26,8 +28,9 @@
     }
 
     &__header {
+      width: 100%;
       height: 100vh;
-      flex: 1 100%;
+      // flex: 1 0;
       margin-bottom: $base_spacing * 2;
       margin-left: 0;
       margin-right: 0;
