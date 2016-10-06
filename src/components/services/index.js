@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Rebase from 're-base'
-
+import bgDigo from '../../assets/icons/bg-hago.svg'
 import ConocimientosEntry from './ConocimientosEntry'
 import HabilidadesEntry from './HabilidadesEntry'
 import Historia from '../historia/Historia'
@@ -10,8 +10,9 @@ import Soy from '../soy/Soy'
 var base = Rebase.createClass('https://sergiofores.firebaseio.com/');
 
 export default class Services extends Component {
-  constructor(props) {
-    super(props);
+
+  constructor(...args) {
+    super(...args);
     this.state = {
       habilidades: [],
       conocimientos: [],
@@ -60,24 +61,25 @@ export default class Services extends Component {
     });
 
     return (
-      <section className="Site__section Site__section--services">
+      <section className="Site__section  Site__section--digo"
+      style={{backgroundImage: 'url(' + bgDigo + ')'}}>
 
         <Soy />
         <Slider />
-        
-        <div className="Site__section__content">
-          <Historia />
-        </div>
 
-        <div className="Widget Widget--list">
+        <main className="Site__section__content">
+          <Historia />
+        </main>
+
+        <aside className="Widget Widget--list">
         <h3 className="Widget__title">{headerConocimientos}</h3>
         {conocimientos}
-        </div>
+        </aside>
 
-        <div className="Widget Widget--list">
+        <aside className="Widget Widget--list">
         <h3 className="Widget__title">{headerHabilidades}</h3>
         {habilidades}
-        </div>
+        </aside>
 
       </section>
     )

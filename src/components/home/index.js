@@ -4,6 +4,12 @@ import { Link } from 'react-router';
 
 import logo from '../../icons/logo.svg';
 
+import bg from '../../assets/img/bg.jpg'
+import bgHago from '../../assets/icons/bg-hago.svg'
+import bgSiento from '../../assets/icons/bg-hago.svg'
+import bgPienso from '../../assets/icons/bg-mountain.svg'
+
+
 var base = Rebase.createClass('https://sergiofores.firebaseio.com/');
 
 
@@ -31,69 +37,61 @@ export default class Home extends Component {
 
     let path = process.env.PUBLIC_URL;
     let home = this.state.home;
-    var bgHagoUrl = path + "/assets/icons/bg-hago.svg";
-    var bgMountainUrl = "assets/icons/bg-mountain.svg";
-    var bgHago = {
-      backgroundImage: 'url(' + bgHagoUrl + ')'
-    };
-    var bgMountain = {
-      backgroundImage: 'url(' + bgMountainUrl + ')'
-    };
 
     return (
-      <section className="Home">
+      <div className="Site__section">
 
-        <div className="Site__section  Site__section__header Site__section--home">
-
-          <div className="home-img"><img src={logo} className="App-logo" alt="logo" />v0.1</div>
-          <h1 className="home-title">{home.title}</h1>
-          <div className="home-wrap">
-            {(home.p1) ? <p>{home.p1}</p> : null}
-            {(home.boton) ? <button className="btn"><Link to="/todh" activeClassName="active">{home.boton}</Link></button> : null}
+        <div className="Site__section__header  Site__section--siento"
+        style={{backgroundImage: 'url(' + bgSiento + ')'}}>
+          <div className="home-img">
+            <img src={logo} className="App-logo" alt="logo" /> v0.1
           </div>
-
+          <h1 className="Site__section__title">
+            {home.title}
+          </h1>
+          <div className="home-wrap">
+            {home.p1 && <p>{home.p1}</p>}
+            {home.boton && <button className="btn"><Link to="/todh" activeClassName="active">{home.boton}</Link></button>}
+          </div>
         </div>
 
-        <div className="Site__section  Site__section--hago"
-        style={bgHago}
-        >
+        <section className="Site__section  Site__section__header  Site__section--hago"
+        style={{backgroundImage: 'url(' + bgHago + ')'}}>
 
-          <h1>
-          {home.title_hago}
+          <h1 className="Site__section__title">
+            {home.title_hago}
           </h1>
           <div className="container">
-            {(home.descripcion_hago) ? <p>{home.descripcion_hago}</p> : null}
+            {home.descripcion_hago && <p>{home.descripcion_hago}</p>}
           </div>
-          {(home.boton_hago) ? <button className="btn">
+          {home.boton_hago && <button className="btn">
           <Link to="/works" activeClassName="active"> {home.boton_hago} </Link>
-          </button> : null}
-        </div>
+          </button>}
+        </section>
 
-        <div className="Site__section  Site__section--pienso"
-        style={bgMountain}
-        >
-          <h1>
+        <div className="Site__section  Site__section__header  Site__section--pienso"
+        style={{backgroundImage: 'url(' + bgPienso + ')'}}>
+          <h1 className="Site__section__title">
           {home.title_pienso}
           </h1>
           <div className="container">
-            {(home.descripcion_pienso) ? <p>{home.descripcion_pienso}</p> : null}
+            {home.descripcion_pienso && <p>{home.descripcion_pienso}</p>}
           </div>
-          {(home.boton_pienso) ? <button className="btn"><Link to="/blog" activeClassName="active"> {home.boton_pienso} </Link></button> : null}
+          {home.boton_pienso && <button className="btn"><Link to="/blog" activeClassName="active"> {home.boton_pienso} </Link></button>}
         </div>
 
-        <div className="Site__section  Site__section--siento"
-        style={bgHago}
-        >
-          <h1>
+        <div className="Site__section  Site__section__header  Site__section--digo"
+        style={{backgroundImage: 'url(' + bgHago + ')'}}>
+          <h1 className="Site__section__title">
             {home.title_siento}
           </h1>
           <div className="container">
-            {(home.descripcion_siento) ? <p>{home.descripcion_siento}</p> : null}
+            {home.descripcion_siento && <p>{home.descripcion_siento}</p>}
           </div>
-          {(home.boton_siento) ? <button className="btn"><Link to="/services" activeClassName="active"> {home.boton_siento} </Link></button> : null}
+          {home.boton_siento && <button className="btn"><Link to="/services" activeClassName="active"> {home.boton_siento} </Link></button>}
         </div>
 
-      </section>
+      </div>
     )
   }
 }

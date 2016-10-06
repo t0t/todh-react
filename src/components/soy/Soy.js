@@ -28,7 +28,7 @@ export default class Soy extends Component {
     let soy = this.state.soy;
 
     return (
-      <div className="Site__section__header">
+      <header className="Site__section__header  Site__section--siento">
 
           <h1 className="Site__section__title">{soy.title}</h1>
           {(soy.p1) ? <p>{soy.p1}</p> : null}
@@ -37,7 +37,7 @@ export default class Soy extends Component {
           {(soy.p4) ? <p>{soy.p1}</p> : null}
           {(soy.p5) ? <p>{soy.p5}</p> : null}
 
-      </div>
+      </header>
     )
   }
 }

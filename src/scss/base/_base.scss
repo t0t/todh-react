@@ -26,9 +26,6 @@ body {
   transition-duration: .2s;
   transition-timing-function: ease;
   // background-color: $color-alt;
-  @media screen and (min-width: 1024px ) {
-    // font-size: 125%;
-  }
 }
 
 a {
@@ -127,15 +124,4 @@ button {
 .agradecimientos {
   padding: $base_spacing;
   background-color: #fff;
-}
-// Animations
-@keyframes dibuja {
-  100% {
-    stroke-dasharray: 300, 300;
-  }
-}
-@keyframes dibuja2 {
-  100% {
-    stroke-dasharray: 700, 700;
-  }
 }

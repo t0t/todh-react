@@ -12,13 +12,13 @@
 
   &__list {
     text-align: left;
-    border: 1px solid $color-base;
+    // border: 1px solid $color-base;
     border-radius: 5px;
     padding: $base_spacing;
+    background-color: $color_alt;
   }
 
   &--list {
-    // background-color: red;
     width: 100%;
     margin: $base_spacing 0;
   }

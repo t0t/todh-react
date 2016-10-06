@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import Rebase from 're-base'
 // import { IconHeart } from '../Icons'
 
+import bgHago from '../../assets/img/bg-hago.svg'
+
 var base = Rebase.createClass('https://sergiofores.firebaseio.com/');
 
 export default class Todh extends Component {
@@ -32,10 +34,11 @@ export default class Todh extends Component {
     return (
       <section className="Site__section">
 
-        <header className="Site__section__header">
-          <h1 className="Site__section__title">{todh.title}</h1>
+        <header className="Site__section__header  Site__section--hago"
+        style={{backgroundImage: 'url(' + bgHago + ')'}}>
+          <h1 className="Site__section__title">
+          {todh.title}</h1>
           {todh.descripcion && <p>{todh.descripcion}</p>}
-
         </header>
 
         <div className="Site__section__content">
@@ -49,11 +52,11 @@ export default class Todh extends Component {
             <dd>Control de versiones</dd>
             <dd>Entorno de pruebas tanto en desarrollo como producción</dd>
             <dd>Preprocesamiento en Sass</dd>
+            <dd>Post procesamiento CSS</dd>
             <dd>Rich Snippets de SEO</dd>
-            <dd>Maquetación atómica y modular por componentes</dd>
+            <dd>Modularización con ES6 + Babel</dd>
             <dd>Arquitectura <abbr title="Single Page Application">SPA</abbr> con ReactJS</dd>
-            <dd>Implementación de Firebase como CMS</dd>
-            <dd></dd>
+            <dd>Implementación de Firebase como backend y base de datos real time.</dd>
           </dl>
 
           {todh.p04 && <h2>{todh.p04}</h2>}

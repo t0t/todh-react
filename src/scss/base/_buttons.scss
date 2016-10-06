@@ -1,10 +1,11 @@
 .btn {
-  background-color: transparent;
   // align-self: center;
+  background-color: transparent;
 
   a {
+    background-color: $color_alt;
     border-radius: $base_spacing / 2;
-    border: 1px solid $color-black;
+    // border: 1px solid $color-black;
     padding: ($base_spacing / 1.5) $base_spacing;
     color: $color-black;
     text-transform: uppercase;

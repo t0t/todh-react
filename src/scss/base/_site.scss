@@ -2,23 +2,15 @@
 .Site {
   display: flex;
   flex-wrap: wrap;
-  // justify-content: space-between;
   max-width: $bp1;
   margin-left: auto;
   margin-right: auto;
-
-  @media screen and ( min-width: 450px ) {
-    // padding-top: 75px;
-  }
 
   &__section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    // min-height: 550px;
-    // margin-left: $base_spacing;
-    // margin-right: $base_spacing;
     width: 100%;
     min-height: 450px;
 
@@ -28,16 +20,30 @@
     }
 
     &__header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center;
+      flex-direction: column;
+      justify-content: center;
       width: 100%;
       height: 100vh;
-      // flex: 1 0;
-      margin-bottom: $base_spacing * 2;
+      // margin-bottom: $base_spacing * 2;
       margin-left: 0;
       margin-right: 0;
       padding-left: $base_spacing;
       padding-right: $base_spacing;
       text-align: center;
-      background-color: $color-base;
+      // background-color: $color-base;
+      padding-top: $base_spacing;
+
+      h1 {
+        padding: 0 $base_spacing;
+        margin-bottom: 0;
+      }
+
+      opacity: 0;
+      @include anim(aparece);
 
       h4 {
         max-width: 700px;
@@ -46,13 +52,21 @@
     }
 
     &__title {
-      flex: 1 100%;
-      width: 100%;
       font-weight: bolder;
       font-size: $font-size * 2.5;
       letter-spacing: 1px;
       text-align: center;
-      // padding-bottom: 0;
+
+      @media screen and (min-width: 1024px) {
+        max-width: 1000px;
+        font-size: $font-size * 4;
+        line-height: 1;
+      }
+      @media screen and (min-width: 1580px) {
+        font-size: $font-size * 8;
+        line-height: 1;
+      }
+
     }
 
     &__wrap {
@@ -60,14 +74,17 @@
         flex-wrap: wrap;
         justify-content: center;
         width: 100%;
-        // min-height: 550px;
-        // flex: 1 100%;
     }
 
     p {
       max-width: 700px;
       margin-left: auto;
       margin-right: auto;
+
+      @media screen and (min-width: 1024px ) {
+        max-width: 900px;
+        font-size: 150%;
+      }
     }
 
     &__article > h2,
@@ -82,30 +99,21 @@
       display: block; // ??
     }
 
-    &--home {
-      // background-image: url('/assets/img/bg.jpg');
-      background-color: $color-base;
-      text-align: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      h1 {
-        flex: 1 100%;
-      }
-    }
-
     &--hago {
       padding-left: $base_spacing;
       padding-right: $base_spacing;
       background-repeat: no-repeat;
-      background-size: contain;
+      background-size: cover;
       background-position: right;
+      background-color: transparent;
     }
     &--pienso {
       padding-left: $base_spacing;
       padding-right: $base_spacing;
       background-repeat: no-repeat;
       background-size: contain;
+      background-position: center;
+      background-attachment: fixed;
     }
     &--siento {
       padding-left: $base_spacing;
@@ -130,6 +138,19 @@
       // color: $color-white;
       margin-bottom: 0;
     }
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+
+    &--digo {
+      padding-left: $base_spacing;
+      padding-right: $base_spacing;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
   }
 
   &__section__header--home {
@@ -161,14 +182,10 @@
     display: flex;
     max-width: 100%;
     align-items: center;
-    // background-color: red;
-    // justify-content: space-around;
     top: 0;
     left: 0;
     right: 0;
-
-    @media screen and (min-width: 1528px) {
-    }
+    z-index: 1;
 
   }
 
@@ -178,12 +195,6 @@
     justify-content: center;
     width: 100%;
     min-height: 400px;
-    // margin-left: 0;
-    // margin-right: 0;
-    // padding-left: $base_spacing;
-    // padding-right: $base_spacing;
-    // padding-bottom: 0;
-    // font-size: 80%;
     line-height: 1;
     align-self: center;
     align-items: center;

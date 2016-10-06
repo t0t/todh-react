@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import Post from './Post'
+import bgPienso from '../../assets/icons/bg-mountain.svg'
+
 // import { IconLoader } from '../Icons'
 import Rebase from 're-base'
 let base = Rebase.createClass('https://sergiofores.firebaseio.com/')
@@ -41,8 +43,9 @@ export default class Blog extends Component {
     let subtitulo = this.state.template.blog_subtitulo;
 
     return (
-      <section className="Site__section  Site__section--blog">
-        <header className="Site__section__header">
+      <section className="Site__section">
+        <header className="Site__section__header Site__section--pienso"
+        style={{backgroundImage: 'url(' + bgPienso + ')'}}>
           <h1 className="Site__section__title">{titulo}</h1>
           <p>{subtitulo}</p>
         </header>

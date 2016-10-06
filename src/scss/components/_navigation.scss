@@ -15,11 +15,15 @@
 
   &__item {
     margin-bottom: 0;
-    margin-left: 15px;
-    margin-right: 15px;
-    font-size: 18px;
+
+    font-weight: bold;
+
+    @media screen and (min-width: 1024px) {
+      font-size: 110%;
+    }
     a {
       color: inherit;
+      padding: $base_spacing/2;
     }
   }
 
@@ -49,8 +53,11 @@
 
 .active {
   animation-name: active;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
+  animation-duration: .3s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.42, 0, .58, 1);
+  animation-fill-mode: forwards;
+
 
   &.toggle-btn {
     transition-property: opacity;

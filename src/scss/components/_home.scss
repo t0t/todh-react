@@ -1,13 +1,9 @@
 .Home {}
 
-
-
-
 .home-title {
   font-weight: bolder;
   font-size: $font-size * 2;
   letter-spacing: -1px;
-  flex: 1 100%;
   margin-bottom: 0;
   padding-left: $base_spacing;
   padding-right: $base_spacing;
@@ -22,12 +18,9 @@
 
 // bloque footer home header
 .home-wrap {
-  // max-width: 600px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+
 }
 
 .home-img {
-  flex: 1 100%;
+  // flex: 1 100%;
 }
