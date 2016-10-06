@@ -63,8 +63,8 @@ export default class Services extends Component {
       <section className="Site__section Site__section--services">
 
         <Soy />
-
         <Slider />
+        
         <div className="Site__section__content">
           <Historia />
         </div>

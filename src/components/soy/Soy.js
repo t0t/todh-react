@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import Rebase from 're-base'
-// import { IconHeart } from '../Icons'
-// import { Link } from 'react-router'
 
 var base = Rebase.createClass('https://sergiofores.firebaseio.com/');
 

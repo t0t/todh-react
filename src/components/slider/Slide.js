@@ -7,7 +7,8 @@ export default class Slide extends Component {
       isActive: false
     }
   }
-  handleClick() {
+  handleClick(e) {
+    e.preventDefault();
     let active = !this.state.isActive;
     this.setState({ isActive: active });
   }

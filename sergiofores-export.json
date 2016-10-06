@@ -1,253 +1,223 @@
 {
-  "blog" : [ null, {
-    "blockquote" : "Esta es una cita, un texto destacado",
-    "desc" : "Las tareas y servicios que desempeño",
-    "img1" : "assets/img/image2.jpg",
-    "name" : "",
-    "p01" : "Podemos tocar las cosas pero no podemos tocar ni ver las ideas mismas que dirigen el mundo",
-    "p02" : "Podemos ver el mundo físico pero no aquello que hace que sea como és; el amor, los pensamientos... Todo lo que nos rodea es la manifestación de toda una serie de \"cosas\" que nunca nadie ha visto. Mi trabajo consiste en facilitar una experiencia de usuario óptima en aplicaciones y sitios web. Hacer que las ideas y los conceptos importantes lleguen de una forma clara y con el menor ruido e interferencias posible.  Mis áreas de especialización son:  - Diseño de sitios web y UI - Front-end enfocado en las vistas y layout css",
-    "p03" : "Mi rol es algo así como una mezcla entre el de un diseñador de experiencias de usuario que piensa como un diseñador frontend y está enfocado en la fase de prototipado y mockups.",
-    "p04" : "Trabajando en equipo, sin embargo, desarrollo mi faceta especialista, puedo concentrar mis habilidades en un área concreta pudiendo profundizar mucho. Abarcas menos pero aprietas más.",
-    "title" : "En qué te puedo ayudar exactamente",
-    "url1" : "http://t0t.github.io/sffire/"
-  }, {
-    "desc" : "TODH también es... un viaje de reorientación profesional",
-    "img1" : "assets/img/image1.jpg",
-    "name" : "Post 2",
-    "p01" : "En esta ocasión el proceso TODH me lleva a querer decir cosas sobre mi propio proceso de transformación profesional. Quizás te encuentres en un momento parecido y estas cuatro etapas te puedan aportar algo.",
-    "p02" : "Transmisión",
-    "p03" : "En todo viaje hay un detonante, una llamada a salir de tu zona de confort, el héroe de la película recibe una llamada externa (o interna) de auxilio quizás. Recibes una pregunta y te tienes que responder. Detectas un conflicto. La tribu en la que vives te transmite un reto. Tu puedes estar muy bien como estás pero recibes una información que te dice algo a tí en un momento concreto y queda a la escucha de una respuesta por tu parte. Algo queda pendiente de una acción…",
-    "p04" : "Puede ser cualquier cosa; un artículo en un blog, alguien que en el ascensor te pregunta a qué te dedicas, la crisis de los cuarenta, ver en youtube como un niño de 15 años explica cosas sobre un tema que tú creías que dominabas desde hacía años. El caso es que algo de fuera viene a tí y despierta una pregunta latente en tu interior. En mi caso fue una mezcla de los ejemplos que he citado pero sobretodo comprender mi Eneatipo (el 5) dentro de una herramienta de autoconocimiento llamada Eneagrama. Me di cuenta de que la mayor barrera para alcanzar el éxito era no ser completamente quien tú ya eres. Sólo tenía que darme cuenta de una serie de cosas y aprender a transmitirlas.",
-    "p05" : "Observación",
-    "p06" : "Te vas al espacio del sentir, la observación de lo que ocurre. Lo que “se te” ocurre. Te subes a tus ojos y te vas a ver, te abres a lo que te motiva, a las posibilidades a todo lo que es un poco tú. Hay muchas cosas que son un poco tú, porque todos nosotros somos un poco lo que es el mundo. Me interesaban varios oficios, varios roles, me gustaba tanto maquetar css como diseñar webs, usar herramientas frontend, interacción, interface, etc. No había límites. Me encantaba observar, aprender, aplicar y mezclar conocimientos diferentes. Sin embargo esto dejó de ser divertido cuando me di cuenta de que si seguía interesandome por tantos campos distintos en los que la tendencia general era la especialización y la ramificación jamás profundizaría lo suficiente. Quedandome anclado en el observar no podía más que ampliar mi campo de visión lo cual es bueno pero ¿cómo ver el árbol si sólo miro el bosque?.",
-    "p07" : "La vida física te impone limitaciones como el tiempo. Al final tu capital es la energía y yo ya estaba bajo mínimos. No hay nada malo en la observación, lo único que puedes hacer “mal” en el ciclo de TODH es quedarte anclado sólo en un aspecto demasiado tiempo.",
-    "p08" : "Decidir",
-    "p09" : "Así que salté a un estado en el que las cosas se pusieron tan interesantes y excitantes como inestables y peligrosas. Había llegado el momento de los noes y los síes. En la zona de la decisión, que es la del pensar, se trata de decir que no a casi todo, aunque duela. Te asaltan las dudas, tu cabeza es un campo de batallas en la que muere casi todo lo que vivía en tí. Lo único que queda en pie es aquello que realmente necesitas en este momento: una senda, una dirección, la claridad mental para traer algo intangible al mundo de lo tangible. Todos los caminos llevan a alguna parte pero sólo uno te lleva a donde tú vas.",
-    "p10" : "Y rodaron cabezas: Wordpress cayó después de 10 años ayudandome a publicar, diseñar y desarrollar sitios web. InDesign cayó despues de años ayudandome a maquetar catálogos y revistas. Mediatemple y después gigas cayeron despues de años ofreciendome hosting para mis clientes. Y así casi todo. Tambien dije que no a horas y horas invertidas en aprender lenguajes de programación como javascript o PHP y herramientas… Realmente desastroso y descorazonador, pero así es, la tecnología cambia, todo cambia a un ritmo vertiginoso y yo buscaba aquellas habilidades aquel potencial en mi que no cambia, mi talento.",
-    "p11" : "Encontré la esencia, aquellas herramientas que realmente me eran útiles en mi propósito, aquello que no me distraía sino que me traía a mi mismo al lugar a donde iba.",
-    "p12" : "Hacer",
-    "p13" : "El hacer es siempre imperfecto, feo o por lo menos mejorable, porque los hechos no tienen vuelta a atrás, solo pueden ir hacia delante. Cualquier acción ya está, ya es, te guste o no. Lo que haces está verdaderamente en el mundo físico y eso es maravilloso porque completa el ciclo natural de las cosas que van de lo mental a lo material. Como dijo el Quijote: “Más vale un toma que dos te daré”. Y es cierto. Es tiempo de hacer con acciones pequeñas, tímidas, tiempo de ir obteniendo resultados también pequeños quizás al principio pero así son las cosas primero son siempre pequeñas y con coherencia se actualizan en algo superior, el “esto correcto” que crece y evoluciona.",
-    "p14" : "Por eso he creado esta web. Está llena de errores, es pequeña (de momento) pero es mi prototipo, uso las tecnologías que ahora me representan mejor, con las que puedo dar más de mí, puedo aprender de los errores que voy cometiendo, rectificar rapidamente sin practicamente ningún coste. Voy liberando, fluyendo en TODH.",
-    "p15" : "",
-    "title" : "Perpetuarse o transformarse"
-  }, {
-    "desc" : "El prototipado evolutivo como modelo creativo de la naturaleza",
-    "img1" : "assets/img/image3.jpg",
-    "name" : "",
-    "p01" : "La naturaleza evoluciona",
-    "p02" : "El prototipado evolutivo te permite plasmar y anticipar toda la complejidad y multiplicidad que interviene en un proyecto digital. Es un artefacto que en su inicio ya abarca la totalidad de algo que está “más allá” y que va llegando progresivamente. Me interesa remarcar esta idea de virtualidad operable que anticipa y desarrolla algo en el tiempo. Aún no está aquí, pero puedes experimentarlo “como si” en efecto lo estuviera, ahora mismo. Aprehendemos lo que hacemos mientras lo hacemos. Estamos hablando más de un diálogo abierto que de un discurso cerrado y todo ese desplegarse progresivo en el mundo no hace más que recordarme una y otra vez cómo opera la vida, eso que llamamos la naturaleza. Un prototipo es, en definitiva, una semilla.",
-    "p03" : "Observando las dinámicas y estrategias que aplica la naturaleza en sus creaciones veremos valiosos ejemplos de prototipos que pueden guiarnos e inspirarnos. ¿Porqué no seguir su ejemplo? Al fin y al cabo somos parte de ella y en muchos aspectos funcionamos igual. La naturaleza está integrando literalmente dentro de la semilla la esencia de un “producto terminado” con todo lo necesario para que el árbol pueda desarrollarse en el futuro.",
-    "p04" : "La dificultad del asunto es saber discernir qué es lo importante, qué elementos de cualquier fase merecen tener cabida en el prototipo para que sea precisamente evolutivo. Me viene a la cabeza el mito del arca de Noé. Necesitamos tener una visión holística y transversal que nos permita captar el big picture y, al mismo tiempo, una mínima base técnica y concreta de los requisitos más específicos.",
-    "p05" : "La clave en todo proceso es la actitud, la manera en que lo llevamos a cabo es la forma en que va a crecer nuestra semilla. La actitud nos da el tono concreto, nos lleva a gestionar el error, la incertidumbre y las prioridades de una manera más o menos efectiva. Hay innumerables metodologías que podemos emplear para seguir un proceso más o menos bien orquestado, como son el Design Thinking, Lean Startup, etc. Existe mucha información al respecto y es útil conocerla. Sin embargo resulta también muy interesante observar directamente cómo la naturaleza resuelve sus propios procesos de forma natural, sencilla y efectiva. Prueba de ello es que tú y yo estamos aquí…",
-    "p06" : "Podemos obtener mucha información útil sobre estrategia y marketing simplemente comprendiendo porqué las aves de entornos selváticos buscan llamar la atención y destacar con colores tan vistosos mientras que en entornos áridos parecen más interesadas en pasar desapercibidas. Podríamos encontrar muchas analogías con el proceso de prototipar simplemente observando el patrón de crecimiento de los caracoles. Pero antes de perderme en ese bosque conceptual quisiera volver a nuestra semilla-prototipo.",
-    "p07" : "Si tomamos la naturaleza como modelo a la hora de crear un prototipo debemos considerar la energía como el principal recurso de que disponemos porque la energía es sinergia. Un pequeño uso de energía conducido y sostenido adecuadamente produce un crecimiento exponencial. Los que nos hemos dedicado a la creación de sitios web completos sabemos el tiempo y sufrimiento que cuesta realizar modificaciones estructurales de diseño en proyectos que ya están en desarrollo o en producción. Sería realmente problemático tener que mover nuestro árbol ya adulto de su sitio porque el lugar donde está no le da suficiente sol. Arrancar todas esas fuertes raíces, remover toda esa tierra… Es más fácil si puedes acceder a la semilla que aún guarda a su interior y adaptarla desde el núcleo a cualquier tipo de cambio.",
-    "p08" : "En los últimos años está habiendo un auge exponencial de empresas que adoptan modelos incrementales, lean, ágiles, etc. Es un indicativo de la naturaleza cambiante de esta era tecnológica en la que las startups y los emprendedores buscan adaptarse a la continua incertidumbre reduciendo costes. Son proyectos que buscan innovación, disponen de poco presupuesto y tienen una gran necesidad de puesta en marcha rápida. Cada vez más gente está comprendiendo que el producto es el proceso y que todo proceso está embebido en un proceso mayor que es la propia naturaleza de nuestra existencia.",
-    "p09" : "",
-    "p10" : "",
-    "title" : "Todo es un prototipo..."
-  } ],
+  "blog" : {
+    "1" : {
+      "blockquote" : "Esta es una cita, un texto destacado",
+      "desc" : "Las tareas y servicios que desempeño",
+      "img1" : "assets/img/image2.jpg",
+      "more_btn" : "Agrandar",
+      "name" : "",
+      "p01" : "En realidad mi trabajo no existe o, si existe no está lo suficientemente extendido aún. Decidí crearlo.",
+      "p02" : "Diagramación de presentación",
+      "p03" : "Sketching, wireframes, prototipado de baja y alta fidelidad en Axure y Sketch. También diseño de interacción con Principle.",
+      "p04" : "",
+      "title" : "En qué te puedo ayudar exactamente",
+      "url1" : "http://t0t.github.io/sffire/"
+    },
+    "2" : {
+      "desc" : "TODH también es... un viaje de reorientación profesional",
+      "img1" : "assets/img/image1.jpg",
+      "more_btn" : "Agrandar",
+      "name" : "Post 2",
+      "p01" : "En esta ocasión el proceso TODH me lleva a querer decir cosas sobre mi propio proceso de transformación profesional. Quizás te encuentres en un momento parecido y estas cuatro etapas te puedan aportar algo.",
+      "p02" : "Transmisión",
+      "p03" : "En todo viaje hay un detonante, una llamada a salir de tu zona de confort, el héroe de la película recibe una llamada externa (o interna) de auxilio quizás. Recibes una pregunta y te tienes que responder. Detectas un conflicto. La tribu en la que vives te transmite un reto. Tu puedes estar muy bien como estás pero recibes una información que te dice algo a tí en un momento concreto y queda a la escucha de una respuesta por tu parte. Algo queda pendiente de una acción…",
+      "p04" : "Puede ser cualquier cosa; un artículo en un blog, alguien que en el ascensor te pregunta a qué te dedicas, la crisis de los cuarenta, ver en youtube como un niño de 15 años explica cosas sobre un tema que tú creías que dominabas desde hacía años. El caso es que algo de fuera viene a tí y despierta una pregunta latente en tu interior. En mi caso fue una mezcla de los ejemplos que he citado pero sobretodo comprender mi Eneatipo (el 5) dentro de una herramienta de autoconocimiento llamada Eneagrama. Me di cuenta de que la mayor barrera para alcanzar el éxito era no ser completamente quien tú ya eres. Sólo tenía que darme cuenta de una serie de cosas y aprender a transmitirlas.",
+      "p05" : "Observación",
+      "p06" : "Te vas al espacio del sentir, la observación de lo que ocurre. Lo que “se te” ocurre. Te subes a tus ojos y te vas a ver, te abres a lo que te motiva, a las posibilidades a todo lo que es un poco tú. Hay muchas cosas que son un poco tú, porque todos nosotros somos un poco lo que es el mundo. Me interesaban varios oficios, varios roles, me gustaba tanto maquetar css como diseñar webs, usar herramientas frontend, interacción, interface, etc. No había límites. Me encantaba observar, aprender, aplicar y mezclar conocimientos diferentes. Sin embargo esto dejó de ser divertido cuando me di cuenta de que si seguía interesandome por tantos campos distintos en los que la tendencia general era la especialización y la ramificación jamás profundizaría lo suficiente. Quedandome anclado en el observar no podía más que ampliar mi campo de visión lo cual es bueno pero ¿cómo ver el árbol si sólo miro el bosque?.",
+      "p07" : "La vida física te impone limitaciones como el tiempo. Al final tu capital es la energía y yo ya estaba bajo mínimos. No hay nada malo en la observación, lo único que puedes hacer “mal” en el ciclo de TODH es quedarte anclado sólo en un aspecto demasiado tiempo.",
+      "p08" : "Decidir",
+      "p09" : "Así que salté a un estado en el que las cosas se pusieron tan interesantes y excitantes como inestables y peligrosas. Había llegado el momento de los noes y los síes. En la zona de la decisión, que es la del pensar, se trata de decir que no a casi todo, aunque duela. Te asaltan las dudas, tu cabeza es un campo de batallas en la que muere casi todo lo que vivía en tí. Lo único que queda en pie es aquello que realmente necesitas en este momento: una senda, una dirección, la claridad mental para traer algo intangible al mundo de lo tangible. Todos los caminos llevan a alguna parte pero sólo uno te lleva a donde tú vas.",
+      "p10" : "Y rodaron cabezas: Wordpress cayó después de 10 años ayudandome a publicar, diseñar y desarrollar sitios web. InDesign cayó despues de años ayudandome a maquetar catálogos y revistas. Mediatemple y después gigas cayeron despues de años ofreciendome hosting para mis clientes. Y así casi todo. Tambien dije que no a horas y horas invertidas en aprender lenguajes de programación como javascript o PHP y herramientas… Realmente desastroso y descorazonador, pero así es, la tecnología cambia, todo cambia a un ritmo vertiginoso y yo buscaba aquellas habilidades aquel potencial en mi que no cambia, mi talento.",
+      "p11" : "Encontré la esencia, aquellas herramientas que realmente me eran útiles en mi propósito, aquello que no me distraía sino que me traía a mi mismo al lugar a donde iba.",
+      "p12" : "Hacer",
+      "p13" : "El hacer es siempre imperfecto, feo o por lo menos mejorable, porque los hechos no tienen vuelta a atrás, solo pueden ir hacia delante. Cualquier acción ya está, ya es, te guste o no. Lo que haces está verdaderamente en el mundo físico y eso es maravilloso porque completa el ciclo natural de las cosas que van de lo mental a lo material. Como dijo el Quijote: “Más vale un toma que dos te daré”. Y es cierto. Es tiempo de hacer con acciones pequeñas, tímidas, tiempo de ir obteniendo resultados también pequeños quizás al principio pero así son las cosas primero son siempre pequeñas y con coherencia se actualizan en algo superior, el “esto correcto” que crece y evoluciona.",
+      "p14" : "Por eso he creado esta web. Está llena de errores, es pequeña (de momento) pero es mi prototipo, uso las tecnologías que ahora me representan mejor, con las que puedo dar más de mí, puedo aprender de los errores que voy cometiendo, rectificar rapidamente sin practicamente ningún coste. Voy liberando, fluyendo en TODH.",
+      "p15" : "",
+      "title" : "Perpetuarse o transformarse"
+    },
+    "3" : {
+      "desc" : "El prototipado evolutivo como modelo creativo de la naturaleza",
+      "img1" : "assets/img/image3.jpg",
+      "more_btn" : "Agrandar",
+      "name" : "",
+      "p01" : "La naturaleza evoluciona",
+      "p02" : "El prototipado evolutivo te permite plasmar y anticipar toda la complejidad y multiplicidad que interviene en un proyecto digital. Es un artefacto que en su inicio ya abarca la totalidad de algo que está “más allá” y que va llegando progresivamente. Me interesa remarcar esta idea de virtualidad operable que anticipa y desarrolla algo en el tiempo. Aún no está aquí, pero puedes experimentarlo “como si” en efecto lo estuviera, ahora mismo. Aprehendemos lo que hacemos mientras lo hacemos. Estamos hablando más de un diálogo abierto que de un discurso cerrado y todo ese desplegarse progresivo en el mundo no hace más que recordarme una y otra vez cómo opera la vida, eso que llamamos la naturaleza. Un prototipo es, en definitiva, una semilla.",
+      "p03" : "Observando las dinámicas y estrategias que aplica la naturaleza en sus creaciones veremos valiosos ejemplos de prototipos que pueden guiarnos e inspirarnos. ¿Porqué no seguir su ejemplo? Al fin y al cabo somos parte de ella y en muchos aspectos funcionamos igual. La naturaleza está integrando literalmente dentro de la semilla la esencia de un “producto terminado” con todo lo necesario para que el árbol pueda desarrollarse en el futuro.",
+      "p04" : "La dificultad del asunto es saber discernir qué es lo importante, qué elementos de cualquier fase merecen tener cabida en el prototipo para que sea precisamente evolutivo. Me viene a la cabeza el mito del arca de Noé. Necesitamos tener una visión holística y transversal que nos permita captar el big picture y, al mismo tiempo, una mínima base técnica y concreta de los requisitos más específicos.",
+      "p05" : "La clave en todo proceso es la actitud, la manera en que lo llevamos a cabo es la forma en que va a crecer nuestra semilla. La actitud nos da el tono concreto, nos lleva a gestionar el error, la incertidumbre y las prioridades de una manera más o menos efectiva. Hay innumerables metodologías que podemos emplear para seguir un proceso más o menos bien orquestado, como son el Design Thinking, Lean Startup, etc. Existe mucha información al respecto y es útil conocerla. Sin embargo resulta también muy interesante observar directamente cómo la naturaleza resuelve sus propios procesos de forma natural, sencilla y efectiva. Prueba de ello es que tú y yo estamos aquí…",
+      "p06" : "Podemos obtener mucha información útil sobre estrategia y marketing simplemente comprendiendo porqué las aves de entornos selváticos buscan llamar la atención y destacar con colores tan vistosos mientras que en entornos áridos parecen más interesadas en pasar desapercibidas. Podríamos encontrar muchas analogías con el proceso de prototipar simplemente observando el patrón de crecimiento de los caracoles. Pero antes de perderme en ese bosque conceptual quisiera volver a nuestra semilla-prototipo.",
+      "p07" : "Si tomamos la naturaleza como modelo a la hora de crear un prototipo debemos considerar la energía como el principal recurso de que disponemos porque la energía es sinergia. Un pequeño uso de energía conducido y sostenido adecuadamente produce un crecimiento exponencial. Los que nos hemos dedicado a la creación de sitios web completos sabemos el tiempo y sufrimiento que cuesta realizar modificaciones estructurales de diseño en proyectos que ya están en desarrollo o en producción. Sería realmente problemático tener que mover nuestro árbol ya adulto de su sitio porque el lugar donde está no le da suficiente sol. Arrancar todas esas fuertes raíces, remover toda esa tierra… Es más fácil si puedes acceder a la semilla que aún guarda a su interior y adaptarla desde el núcleo a cualquier tipo de cambio.",
+      "p08" : "En los últimos años está habiendo un auge exponencial de empresas que adoptan modelos incrementales, lean, ágiles, etc. Es un indicativo de la naturaleza cambiante de esta era tecnológica en la que las startups y los emprendedores buscan adaptarse a la continua incertidumbre reduciendo costes. Son proyectos que buscan innovación, disponen de poco presupuesto y tienen una gran necesidad de puesta en marcha rápida. Cada vez más gente está comprendiendo que el producto es el proceso y que todo proceso está embebido en un proceso mayor que es la propia naturaleza de nuestra existencia.",
+      "p09" : "",
+      "p10" : "",
+      "title" : "Todo es un prototipo..."
+    },
+    "30_09_16" : {
+      "desc" : "v.01",
+      "img1" : "assets/img/semilla-apaisada.jpg",
+      "more_btn" : "Agrandar",
+      "p01" : "Todas las cosas están separadas por límites, sin embargo esa es la paradoja puesto que precisamente los límites son los que en verdad las unen. El mundo del diseño, la experiencia de usuario y el desarrollo de software no sólo se tocan sino que se entrecruzan, numerosas tecnicas y herramientas nacen continuamente y nos llevan en esta dirección.",
+      "p02" : "Hoy la especialización está en auge, todos nos posicionamos como especialistas en alguna cosa y el único problema es que a veces nos centramos tanto en un mundo que perdemos la perspectiva. La clave es integrar una solución global inicial que sea coherente para crecer orgánicamente. Cada disciplina tiene muchos niveles de profundidad. A mí me interesa crear prototipos que integran la esencia de esos niveles para crear prototipos vivos reales que validan.",
+      "p03" : "Este sitio web es un prototipo. Una ensalada estructurada de conocimientos en varias disciplinas. ¿Porqué no servir un prototipo en producción con su bundle css/js usando la potencia de React y la magia de Firebase? ",
+      "p04" : "(Continuará...)",
+      "title" : "Esto que estás viendo es un prototipo real funcional"
+    },
+    "05_10_16" : {
+      "boton" : "",
+      "img1" : "assets/img/image3.jpg",
+      "descripcion" : "Estas cuatro letras representan los cuatro principios básicos de que se compone todo lo que es. Mi misión es observarlos, comprenderlos, manifestarlos y transmitirlos de forma que sea útil a los demás.",
+      "p01" : "Un día me disponía a salir y no encontraba las llaves, las busqué por todas partes pero no las encontraba, al final resultó que me las había dejado colgadas en la puerta de mi casa...",
+      "p10" : "La realidad y todo lo que sucede en ella sigue este proceso. Nosotros mismos formamos parte de este proceso y en la medida en que somos más conscientes de él o estamos más alineados tendremos mayor o menor éxito porque estaremos más o menos resonantes con la música que está sonando.",
+      "p11" : "No podemos controlar las dinámicas de TODH pero lo que sí podemos es fluir en ellas y darnos cuenta. Todo lo que tenemos que hacer es no ofrecer resistencia. La naturaleza real de las cosas tiende a la autoorganización, el equilibrio, el orden y la creatividad.",
+      "p12" : "Miles de teorías nos hablan de conseguir objetivos desde el pensamiento pero el pensar es sólo una parte, si te quedas demasiado tiempo en ese lugar te desconectas, te paras. Lo mismo sucede con el decir, la sociedad cada vez dice más cosas en menos tiempo pero sólo crea ruído porque no sabemos lo que decimos o simplemente repetimos lo que otros dicen sin haberlo integrado. En el hacer aún creemos que cuanto más esfuerzo y sacrificio cueste materializar algo más merece la pena y es al revés, se trata de aprovechar la dinámica de TODH para que con el menor esfuerzo generemos la mayor inercia y efectividad.",
+      "p02" : "La resolución de cualquier drama no suele estar en lugares recónditos sino allí donde no se nos ocurrió mirar porque ya lo dábamos por supuesto. Así, lo extraordinario, aquello que da sentido a lo que somos, sentimos o hacemos no está lejos del aquí y del ahora, sólo necesitamos aprender a ver más de cerca lo que ya estábamos viendo.",
+      "p03" : "Tras un largo proceso de autoconocimiento y búsqueda de sentido en mi vida personal y profesional me di cuenta de esta gran obviedad, me dí cuenta de que sabía hablar pero aún no había aprendido a Decir. Tenía cosas importantes que contar a los demás y ni siquiera era capaz de explicarmelas a mí mismo...",
+      "p04" : "En una ocasión tuve un pequeño Satori cuando mi hijo me pidió que le contara un cuento y yo me quedé bloqueado, mi mente trabajaba pero no fui capaz de pronunciar una sola palabra. Mi hijo ese día se durmió sin cuento y yo me quede ahí junto a él mirando el techo un buen rato tratando de averiguar porqué no había sido capaz de pronunciar el mejor cuento del mundo.",
+      "p05" : "Había conectado con el decir, sólo anhelaba comprender y practicar lo que se me revelaba como una capacidad extraordinaria, un potencial que había tardado mucho en descubrir. Tomé un lápiz y un papel, entorné el pomo con los dedos y abrí porfin esa puerta...",
+      "p06" : "El proceso de todas las cosas es iterativo e incremental",
+      "p07" : "A medida que tomo consciencia y profundizo en lo que el decir significa voy comprendiendo las demás fases de un proceso vivo que aglutina todo lo que es. El decir, el pensar, el sentir y el hacer son cuatro vibraciones elementales que están embebidas unas a otras y estructuran los distintos niveles de la realidad.",
+      "p08" : "Yo sólo he descubierto la conexión obvia que existe entre las cuatro formas que tiene de suceder todo lo que sucede. Suena rebuscado pero no lo es. La cosa en sí que llamo TODH no es un gran descubrimiento, pero lo que puedes hacer con ello sí y lo que ello hace en tí o en tus proyectos una vez lo comprendes, no tiene límites. Negarlo o criticarlo sería tan absurdo como negar o criticar que las personas nacemos y morimos.",
+      "p09" : "A medida que profundizas en TODH se vuelve más rico en matices y más interesante. Es un proceso vivo contínuo. Antes de entrar a ver la naturaleza de cada una de las 4 partes elementales, quiero introducir 2 conceptos más: la actualización y la coherencia ya que me parecen vitales para entender su funcionamiento. Imagina una película de 4 fotogramas por segundo que se repite como un loop. El sentido de lo que ves no está sólo en lo que aparece en el fotograma 1, ni en el 2 o el 3. El sentido esta en el sudecer de los 4. Cada fotograma actualiza el anterior y da coherencia al siguiente.",
+      "title" : "TODH"
+    }
+  },
   "brand" : {
     "description" : "Diseño y desarrollo web basado en estándares",
+    "direccion" : "San Joan de Mediona (Barcelona)",
     "logo" : "assets/icons/icons.svg",
     "name" : "Sergio Forés",
     "title" : "art, design, code & advaita"
   },
+  "conocimientos" : {
+    "dl01" : {
+      "dd01" : "Diseño Web UI / Gráfico",
+      "dd02" : "Diseño de interacción",
+      "dd03" : "Bellas Artes",
+      "dd04" : "Arquitectura de Información",
+      "dd05" : "Retoque Fotográfico",
+      "dd06" : "Diseño Editorial",
+      "dt01" : "Facilidad creativa"
+    },
+    "dl02" : {
+      "dd01" : "HTML / CSS",
+      "dd02" : "Javascript / ES2015",
+      "dd03" : "React JS",
+      "dd04" : "Git / Github",
+      "dd05" : "Gulp, NPM",
+      "dd06" : "Sass",
+      "dt01" : "Bases de Front-end"
+    },
+    "dl03" : {
+      "dd01" : "Firebase (BaaS)",
+      "dd02" : "Wordpress",
+      "dd03" : "Motores de plantillas",
+      "dd04" : "Línea de Comandos (CLI)",
+      "dd05" : "Wordpress API REST",
+      "dd06" : "Rich Snippets",
+      "dt01" : "Otros"
+    }
+  },
   "contacto" : {
     "email" : "sergiofores@gmail.com"
   },
+  "habilidades" : {
+    "dl01" : {
+      "dd01" : "Sketching en papel",
+      "dd02" : "",
+      "dd03" : "Sketch / Principle",
+      "dd04" : "Axure RP",
+      "dd05" : "Wireframes / Diagramas de Flujo",
+      "dd06" : "Style Guides",
+      "dt01" : "Diagramación de presentación"
+    },
+    "dl02" : {
+      "dd01" : "HTML + CSS (Sass)",
+      "dd02" : "Diseño de Interacción",
+      "dd03" : "Ilustración",
+      "dd04" : "Mockups",
+      "dd05" : "Demos de producto",
+      "dd06" : "Style Guides",
+      "dt01" : "Maquetación y diseño"
+    },
+    "dl03" : {
+      "dd01" : "",
+      "dd02" : "Adaptabilidad",
+      "dd03" : "Aprendo rápido",
+      "dd04" : "Buenas prácticas",
+      "dd05" : "Gestión de proyectos",
+      "dd06" : "Diseño Gráfico",
+      "dt01" : "Otros"
+    }
+  },
   "historia" : {
     "biografia" : "Un día decidí consolidar todas las experiencias que había recogido en distintos ámbitos de mi vida y reorientarme profesionalmente. No se si fué por la famosa crisis de los 40, pero en todo caso fue una bendición el darme cuenta de un montón de cosas que debía llevar a cabo; me centré en mi propósito vital. Y en eso andamos desde entonces. Dándonos cuenta y dando cuenta de ello. Construyendo miga a miga una marca personal, luchando con dragones, equivocandome mucho, aprendiendo y disfrutando de las experiencias.",
-    "formacion" : "He cursado estudios superiores en Artes Plásticas en EARTVIC y también Arte Electrónico y Diseño Digital en EsDi. Además he cursado multitud de cursos online sobre Sass, Firebase, CSS3, Experiencia de Usuario, Wordpress, etc."
+    "compartir" : "",
+    "escucha" : "",
+    "foco" : "",
+    "formacion" : "He cursado estudios superiores en Artes Plásticas en EARTVIC y también Arte Electrónico y Diseño Digital en EsDi. Además he cursado multitud de cursos online sobre Sass, Firebase, CSS3, Experiencia de Usuario, Wordpress, etc.",
+    "franqueza" : "",
+    "innovacion" : "",
+    "proceso" : "En 2015 hago recapitulación y decido replantear completamente mis intereses personales y profesionales teniendo en cuenta el mundo cambiante en el que vivimos, desde entonces dirijo mi energía y enfoco mi propia evolución a formar parte de equipos multidisciplinares colaborando en prototipos evolutivos donde puedo sacar el máximo provecho de mis habilidades y conocimientos.",
+    "sinergias" : "Nací en un mes de julio de 1975 en Barcelona. Apasionado desde muy pequeño al dibujo me formé en Bellas Artes y más tarde en Arte Electrónico. Inicié mi camino freelance en el 2000 como diseñador web y gráfico. Al tratar con cliente final fui durante 10 años aprendiendo a desarrollar sitios web completos sobretodo en Wordpress. Progresivamente desde que empecé he ido expansionándome más y más sobretodo al mundo del Frontend.",
+    "valores" : ""
   },
   "home" : {
-    "boton" : "Mi historia",
+    "boton" : "Mi visión se llama TODH",
     "boton_hago" : "Muestra de trabajos",
     "boton_pienso" : "Blog",
     "boton_siento" : "Sobre mí",
-    "descripcion_hago" : "Tras abrazar distintos territorios como el diseño web, gráfico, editorial, el frontend o el desarrollo de temas en Wordpress, encuentro en el mundo del prototipado digital el lugar donde confluyen todas mis pasiones.",
-    "descripcion_pienso" : "Me gusta usar el pensamiento para lo que sirve, es decir, para decidir con criterio y planificar. Las ideas por sí solas no te llevan a ninguna parte pero te ayudan a elegir el camino más corto.",
-    "descripcion_siento" : "Todos estamos en el mismo viaje sólo que lo apreciamos desde puntos de vista distintos. Quiero compartir no sólo mis conocimientos sino mi forma de ser porque al final ésto va de personas conviviendo con otras personas.",
+    "descripcion_hago" : "Todo, sencillo, pequeño, desde el primer momento. Tengo claro que buenas semillas hacen buenos árboles.",
+    "descripcion_pienso" : "El mapa no es la montaña. Pienso para elegir el camino más corto.",
+    "descripcion_siento" : "Mi marco de trabajo no se ciñe sólo a lo profesional. Aplico mejora contínua también sobre mí mismo.",
     "img" : "",
-    "p1" : "Diseño y desarrollo prototipos de todo tipo para equipos multidisciplinares y emprendedores.",
+    "p1" : "En capítulos anteriores Diseñador Gráfico/Web y Maquetador Frontend, ahora reorientándome a equipos con enfoque ágil.",
     "p2" : "",
-    "title" : "Realizo la forma de las ideas",
-    "title_hago" : "Hay otros mundos pero están en éste...",
-    "title_pienso" : "El mapa no es la montaña",
-    "title_siento" : "Perfil, habilidades y conocimientos"
+    "title" : "Realizar la forma de las ideas",
+    "title_hago" : "Actuar pronto",
+    "title_pienso" : "Planificar sencillo",
+    "title_siento" : "Capacidad para ser uno mismo"
   },
   "photos" : {
     "id1" : {
-      "title" : "primera foto",
-      "url" : "assets/img/image1.jpg"
+      "title" : "Me gusta trazar lo que veo",
+      "url" : "assets/img/dibujo-modelo4.jpg"
     },
     "id10" : {
-      "title" : "Foto 2",
-      "url" : "assets/img/image2.jpg"
+      "title" : "Me gusta trazar sobre el mar",
+      "url" : "assets/img/bio-kayak.jpg"
     },
     "id11" : {
-      "title" : "Foto 3",
+      "title" : "Me gusta trazar sobre papel",
       "url" : "assets/img/image3.jpg"
     },
     "id12" : {
-      "title" : "Foto 4",
+      "title" : "Me gusta trazar sobre barro",
       "url" : "assets/img/image1.jpg"
     },
     "id13" : {
-      "title" : "Foto 5",
+      "title" : "Me gusta trazar sobre el ordenador",
       "url" : "assets/img/image2.jpg"
-    },
-    "id14" : {
-      "title" : "Foto 6",
-      "url" : "assets/img/image1.jpg"
-    },
-    "id15" : {
-      "title" : "Foto 2",
-      "url" : "assets/img/image1.jpg"
-    },
-    "id16" : {
-      "title" : "Foto 4",
-      "url" : "assets/img/image3.jpg"
-    },
-    "id17" : {
-      "title" : "Foto 1",
-      "url" : "assets/img/image1.jpg"
-    },
-    "id18" : {
-      "title" : "Foto 2",
-      "url" : "assets/img/image1.jpg"
-    },
-    "id19" : {
-      "title" : "Foto 4",
-      "url" : "assets/img/image2.jpg"
-    },
-    "id2" : {
-      "title" : "Foto 2",
-      "url" : "assets/img/image1.jpg"
-    },
-    "id20" : {
-      "title" : "Foto 1",
-      "url" : "assets/img/image1.jpg"
-    },
-    "id21" : {
-      "title" : "Foto 2",
-      "url" : "assets/img/image3.jpg"
-    },
-    "id22" : {
-      "title" : "Foto 4",
-      "url" : "assets/img/image1.jpg"
-    },
-    "id23" : {
-      "title" : "Foto 1",
-      "url" : "assets/img/image2.jpg"
-    },
-    "id24" : {
-      "title" : "Foto 2",
-      "url" : "assets/img/image1.jpg"
-    },
-    "id25" : {
-      "title" : "Foto 4",
-      "url" : "assets/img/image1.jpg"
-    },
-    "id26" : {
-      "title" : "Foto 1",
-      "url" : "assets/img/image1.jpg"
-    },
-    "id27" : {
-      "title" : "Foto 2",
-      "url" : "assets/img/image1.jpg"
-    },
-    "id28" : {
-      "title" : "Foto 4",
-      "url" : "assets/img/image1.jpg"
-    },
-    "id29" : {
-      "title" : "Foto 1",
-      "url" : "assets/img/image3.jpg"
-    },
-    "id30" : {
-      "title" : "Foto ultima",
-      "url" : "assets/img/image2.jpg"
-    }
-  },
-  "habilidades" : {
-    "dl01" : {
-      "dt01" : "Wireframing y Prototipado",
-      "dd01" : "Sketching y dibujo a mano",
-      "dd02" : "",
-      "dd03" : "Sketch / Principle / Craft",
-      "dd04" : "Axure RP8",
-      "dd05" : "Photoshop / Affinity Suit",
-      "dd06" : "InDesign"
-    },
-    "dl02" : {
-      "dt01" : "Front-end",
-      "dd01" : "HTML + CSS (Sass)",
-      "dd02" : "Javascript",
-      "dd03" : "React",
-      "dd04" : "Git / Github",
-      "dd05" : "Gulp",
-      "dd06" : ""
-    },
-    "dl03" : {
-      "dt01" : "Otros",
-      "dd01" : "Firebase",
-      "dd02" : "Wordpress",
-      "dd03" : "Jekyll",
-      "dd04" : "Roots",
-      "dd05" : "",
-      "dd06" : ""
-    }
-  },
-  "conocimientos" : {
-    "dl01" : {
-      "dt01" : "Wireframing y Prototipado",
-      "dd01" : "Sketching y dibujo a mano",
-      "dd02" : "",
-      "dd03" : "Sketch / Principle / Craft",
-      "dd04" : "Axure RP8",
-      "dd05" : "Photoshop / Affinity Suit",
-      "dd06" : "InDesign"
-    },
-    "dl02" : {
-      "dt01" : "Front-end",
-      "dd01" : "HTML + CSS (Sass)",
-      "dd02" : "Javascript",
-      "dd03" : "React",
-      "dd04" : "Git / Github",
-      "dd05" : "Gulp",
-      "dd06" : ""
-    },
-    "dl03" : {
-      "dt01" : "Otros",
-      "dd01" : "Firebase",
-      "dd02" : "Wordpress",
-      "dd03" : "Jekyll",
-      "dd04" : "Roots",
-      "dd05" : "",
-      "dd06" : ""
     }
   },
   "site" : {
     "config" : {
-      "description" : "SPA",
+      "description" : "Prototipo evolutivo de portafolio",
       "language" : "es",
-      "metatags" : "ssp, react, firebase, app, t0t",
-      "title" : "SFFIRE"
+      "metatags" : "todh, agile, diseño, frontend, freelance",
+      "title" : "TODH"
     },
     "header" : {
       "blog_subtitulo" : "Una colección de pensamientos ‘confesables’, inspiraciones, ideas, planes y procesos que me encuentro en mi dia a dia.",
       "blog_titulo" : "Lo que pienso",
+      "conocimientos" : "Conocimientos",
+      "habilidades" : "Habilidades",
       "home" : "",
-      "servicios" : "Habilidades",
+      "social_titulo" : "¿Tienes algo que decir?",
       "works_subtitulo" : "Servicios de prototipado web high-res para agencias digitales y emprendedores bajo un enfoque holístico y ágil.",
-      "works_titulo" : "Hago que ello ocurra"
+      "works_titulo" : "Ver algo especial en lo que parece ordinario"
     }
   },
   "social" : {
-    "dribbble" : {
-      "title" : "Dribble",
-      "url" : "https://dribbble.com/t0t"
-    },
     "facebook" : {
       "title" : "Facebook",
       "url" : "https://www.facebook.com/sergio.fores"
@@ -270,27 +240,15 @@
     },
     "youtube" : {
       "title" : "Youtube",
-      "url" : "https://www.youtube.com/user/sergeiforesraga"
+      "url" : "https://www.youtube.com/channel/UCSsOxVck4CGhbCblzuc-gSA"
     }
   },
   "soy" : {
     "descripcion" : "Encuentro tesoros en lo obvio y natural",
-    "p1" : "Diseñador/Frontend enfocado en una visión propia del prototipado evolutivo. Freelance. Un tanto Freaky. Peligroso en la cocina.",
-    "p2" : "En la ideación gráfica y la diagramación de presentación es donde veo que saco el máximo partido de mis habilidades. Creo que todo trabajo es interior y exterior a la vez. Me apasiona la observación de la realidad, comprenderla creando espacios de reflexión, aprendizaje, ensayo y error, y sentido del humor.",
+    "p1" : "Sigo siendo ese niño que trataba de comprender el mundo con sus lápices de colores, aunque ahora uso más herramientas",
+    "p2" : "",
     "p3" : "",
-    "title" : "Transmitir"
-  },
-  "todh" : {
-    "boton" : "",
-    "descripcion" : "Estas cuatro letras son las cuatro partes principales de que se compone todo proceso de creación, comprendiendo lo que esto significa podemos relacionarnos con cualquier cosa en resonancia con los principios de creación que rigen la vida...",
-    "p1" : "Un día me disponía a salir y no encontraba las llaves, las busqué por todas partes pero no las encontraba, al final resultó que me las había dejado colgadas en la puerta de mi casa...",
-    "p2" : "La resolución de cualquier drama no suele estar en lugares recónditos sino allí donde no se nos ocurrió mirar porque ya lo dábamos por supuesto. Así, lo extraordinario, aquello que da sentido a lo que somos, sentimos o hacemos no está lejos del aquí y del ahora, sólo necesitamos aprender a ver más de cerca lo que ya estábamos viendo.",
-    "p3" : "Tras un largo proceso de autoconocimiento y búsqueda de sentido en mi vida personal y profesional me di cuenta de esta gran obviedad, me dí cuenta de que sabía hablar pero aún no había aprendido a Decir. Tenía cosas importantes que contar a los demás y ni siquiera era capaz de explicarmelas a mí mismo.",
-    "p4" : "En una ocasión tuve un pequeño Satori cuando mi hijo me pidió que le contara un cuento y yo me quedé bloqueado, mi mente trabajaba pero no fui capaz de pronunciar una sola palabra. Mi hijo ese día se durmió sin cuento y yo me quede ahí junto a él mirando el techo un buen rato tratando de averiguar porqué no había sido capaz de pronunciar el mejor cuento del mundo.",
-    "p5" : "Definitivamente tenía que aprender a decir, aún no me importaba tanto el qué, sólo quería comprender y practicar lo que se me revelaba como una capacidad extraordinaria, un potencial por descubrir. Tomé un lápiz y un papel y abrí esa puerta…",
-    "p6" : "egergggg",
-    "p7" : "ssd",
-    "title" : "TODH, descubriendo lo que es"
+    "title" : "Sergio Forés"
   },
   "works" : {
     "id001" : {

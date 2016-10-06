@@ -11,7 +11,8 @@ export default class Post extends Component {
     }
   }
 
-  showPost(){
+  showPost(e){
+    e.preventDefault();
     this.setState({
       showAll: !this.state.showAll
     })

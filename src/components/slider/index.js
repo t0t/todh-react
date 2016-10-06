@@ -29,7 +29,8 @@ export default class Slider extends Component {
     base.removeBinding(this.ref);
   }
 
-  handlePrevSlide() {
+  handlePrevSlide(e) {
+    e.preventDefault();
     const totalSlides = this.state.slides.length;
     if ( this.state.slide < 1 ) {
       this.setState({
@@ -42,7 +43,8 @@ export default class Slider extends Component {
     }
   }
 
-  handleNextSlide() {
+  handleNextSlide(e) {
+    e.preventDefault();
     const totalSlides = this.state.slides.length;
     if ( this.state.slide < totalSlides - 1) {
       this.setState({
