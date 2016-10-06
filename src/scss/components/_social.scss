@@ -1,0 +1,33 @@
+.Social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: $base_spacing * 1.2;
+  flex: 1 100%;
+  min-height: 50vh;
+
+  &__title {
+    text-align: center;
+    flex: 1 100%;
+    margin-bottom: $base_spacing * 1.2;
+  }
+
+  &__links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    list-style: none;
+    padding: $base_spacing;
+  }
+
+  &__item {
+    line-height: 1.7;
+    margin-right: $base_spacing / 2;
+    margin-bottom: 0;
+    a {
+      color: $color-black;
+    }
+  }
+}

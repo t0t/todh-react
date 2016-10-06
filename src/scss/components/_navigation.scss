@@ -1,0 +1,90 @@
+.Nav-main {
+  display: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  @media screen and (min-width: $bp3) {
+    display: flex;
+    padding-right: $base_spacing;
+  }
+
+  &__item {
+    margin-bottom: 0;
+    // margin-left: 15px;
+    // margin-right: 15px;
+    font-weight: bold;
+
+    @media screen and (min-width: 1024px) {
+      font-size: 110%;
+    }
+    a {
+      color: inherit;
+      padding: $base_spacing/2;
+    }
+  }
+
+  &-wrap {
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+}
+
+.toggle-btn {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+
+  &:focus {
+    outline: none;
+  }
+  @media screen and (min-width: $bp3) {
+    display: none;
+  }
+}
+
+.active {
+  animation-name: active;
+  animation-duration: .3s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.42, 0, .58, 1);
+  animation-fill-mode: forwards;
+
+  &.toggle-btn {
+    transition-property: opacity;
+    transition-duration: .3s;
+    transform: rotate(45deg);
+    z-index: 10;
+
+    & + .Nav-main {
+      width: 100%;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      background-color: $color-white;
+
+      .Nav-main__item {
+        text-align: center;
+        flex: 1 100%;
+        font-size: 175%;
+      }
+      @media screen and (min-width: $bp3) {
+        position: inherit;
+      }
+    }
+  }
+}

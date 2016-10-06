@@ -1,0 +1,25 @@
+{
+  "name": "todh-react",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-ruby-sass": "^2.0.6",
+    "react-scripts": "0.6.1"
+  },
+  "dependencies": {
+    "firebase": "^2.4.2",
+    "re-base": "^1.5.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-router": "^2.8.1"
+  },
+  "homepage": "http://t0t.github.io/todh-react",
+  "scripts": {
+    "start": "concurrently --kill-others 'react-scripts start' 'gulp'",
+    "build": "gulp sass && react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

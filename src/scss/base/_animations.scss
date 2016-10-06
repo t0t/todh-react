@@ -1,0 +1,35 @@
+@mixin anim($name) {
+  animation-name: $name;
+  animation-duration: .3s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+// Animations
+@keyframes loader {
+  50% {
+    opacity: .3;
+  }
+}
+@keyframes active {
+  100% {
+    background-color: $color_alt;
+  }
+}
+@keyframes aparece {
+  100% {
+    opacity: 1;
+  }
+}
+
+// Animations
+@keyframes dibuja {
+  100% {
+    stroke-dasharray: 300, 300;
+  }
+}
+@keyframes dibuja2 {
+  100% {
+    stroke-dasharray: 700, 700;
+  }
+}
