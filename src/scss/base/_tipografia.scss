@@ -1,0 +1,31 @@
+
+small {
+  font-size: fs(x-small);
+}
+
+p,
+dd,
+dt,
+li,
+input,
+textarea,
+figure,
+figcaption,
+section,
+header {
+  font-size: fs(small);
+  line-height: $line-height-base;
+
+  @media screen and (min-width: 550px) {
+    font-size: fs(normal);
+    line-height: $line-height-base + 0.15;
+  }
+  @media screen and (min-width: 1000px) {
+    font-size: fs(big);
+    line-height: $line-height-base;
+  }
+  @media screen and (min-width: 1430px) {
+    font-size: fs(huge);
+    line-height: $line-height-base - 0.15;
+  }
+}

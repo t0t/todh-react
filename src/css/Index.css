@@ -300,9 +300,7 @@ svg {
   height: auto; }
 
 body {
-  font-family: Open Sans;
-  font-size: 18px;
-  line-height: 1.9;
+  font-family: 'Open Sans', Arial, sans-serif;
   letter-spacing: 1px;
   transition-property: all;
   transition-duration: .2s;
@@ -335,7 +333,6 @@ blockquote {
   border-left: 1px solid seashell;
   padding: 25px;
   font-weight: bold;
-  font-size: 130%;
   margin-left: 0; }
 
 figure {
@@ -351,7 +348,6 @@ h2 {
   line-height: 1.3;
   margin-bottom: 12.5px;
   font-weight: bolder;
-  font-size: 36px;
   letter-spacing: 0;
   max-width: 700px;
   margin-left: auto;
@@ -461,7 +457,6 @@ button {
     padding: 16.66667px 25px;
     color: black;
     text-transform: uppercase;
-    font-size: 12px;
     letter-spacing: 1px; }
     .btn a:hover {
       background-color: #81e8b3; }
@@ -510,17 +505,14 @@ button {
         margin-top: 0; }
     .Site__section__title {
       font-weight: bolder;
-      font-size: 45px;
       letter-spacing: 1px;
       text-align: center; }
       @media screen and (min-width: 1024px) {
         .Site__section__title {
           max-width: 1000px;
-          font-size: 72px;
           line-height: 1; } }
       @media screen and (min-width: 1580px) {
         .Site__section__title {
-          font-size: 144px;
           line-height: 1; } }
     .Site__section__wrap {
       display: flex;
@@ -530,11 +522,9 @@ button {
     .Site__section p {
       max-width: 700px;
       margin-left: auto;
-      margin-right: auto; }
-      @media screen and (min-width: 1024px) {
-        .Site__section p {
-          max-width: 900px;
-          font-size: 150%; } }
+      margin-right: auto;
+      margin-top: 25px;
+      margin-bottom: 50px; }
     .Site__section__article > h2, .Site__section__article > h4, .Site__section__article > small, .Site__section__article > figure figcaption, .Site__section__article > p {
       padding-left: 25px;
       padding-right: 25px; }
@@ -586,7 +576,6 @@ button {
     display: none; }
   .Site__description {
     display: none;
-    font-size: 65%;
     width: 50px;
     margin-top: 0;
     margin-right: 0;
@@ -621,10 +610,64 @@ button {
       justify-content: center;
       align-items: center;
       text-align: center;
-      font-size: 14px;
       color: rgba(0, 0, 0, 0.3);
       line-height: 1.5;
       flex: 1 100%; }
+
+small {
+  font-size: 0.6rem; }
+
+p,
+dd,
+dt,
+li,
+input,
+textarea,
+figure,
+figcaption,
+section,
+header {
+  font-size: 0.8rem;
+  line-height: 1.7; }
+  @media screen and (min-width: 550px) {
+    p,
+    dd,
+    dt,
+    li,
+    input,
+    textarea,
+    figure,
+    figcaption,
+    section,
+    header {
+      font-size: 1rem;
+      line-height: 1.85; } }
+  @media screen and (min-width: 1000px) {
+    p,
+    dd,
+    dt,
+    li,
+    input,
+    textarea,
+    figure,
+    figcaption,
+    section,
+    header {
+      font-size: 1.5rem;
+      line-height: 1.7; } }
+  @media screen and (min-width: 1430px) {
+    p,
+    dd,
+    dt,
+    li,
+    input,
+    textarea,
+    figure,
+    figcaption,
+    section,
+    header {
+      font-size: 2rem;
+      line-height: 1.55; } }
 
 .Loading {
   z-index: 100;
@@ -819,7 +862,6 @@ button {
   .Contact-form input,
   .Contact-form textarea {
     letter-spacing: 1px;
-    font-size: 14px;
     border: none;
     padding: 10px;
     margin-right: 25px;
@@ -839,14 +881,14 @@ button {
 
 .home-title {
   font-weight: bolder;
-  font-size: 36px;
+  font-size: 24px;
   letter-spacing: -1px;
   margin-bottom: 0;
   padding-left: 25px;
   padding-right: 25px; }
   @media screen and (min-width: 756px) {
     .home-title {
-      font-size: 63px;
+      font-size: 42px;
       line-height: 1.1;
       padding-left: 75px;
       padding-right: 75px; } }

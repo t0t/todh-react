@@ -12,9 +12,9 @@ $bp4: 250px;
 
 // Base
 $padding_base: 40px;
-$line-height-base: 1.5;
+$line-height-base: 1.7;
 $base_spacing: 25px;
-$font_size: 18px;
+$font_size: 12px;
 
 // Colors
 $color-black: rgb(0, 0, 0);
@@ -41,5 +41,23 @@ violet: rgb(150,50,175)
   }
 }
 
+
+
 // Images
 $path: "/assets/img/";
+
+
+
+
+// Tipografia
+@function fs($font-size) {
+  @return map-get($size-vars, $font-size) * 1rem;
+}
+
+$size-vars: (
+  "x-small"  :    .6,
+  "small"    :    .8,
+  "normal"   :    1,
+  "big"      :    1.5,
+  "huge"     :    2
+);

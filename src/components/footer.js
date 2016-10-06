@@ -32,9 +32,9 @@ export default class Footer extends Component {
         <Social/>
 
         {this.state.footer.pie_pagina &&
-          <p className="Site__footer__credits">
+          <small className="Site__footer__credits">
           {this.state.footer.pie_pagina}
-          <IconLogoSF /></p>
+          <IconLogoSF /></small>
         }
 
       </footer>
